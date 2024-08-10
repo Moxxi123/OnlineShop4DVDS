@@ -1,0 +1,74 @@
+﻿@model CreateUserViewModel
+
+<div class="container-fluid shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient py-4">
+        <div class="text-center">
+            <h2 class="text-white mb-0">Create User</h2>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <form asp-area="Admin" asp-controller="User" asp-action="Create" method="post">
+            <div class="row border p-4 rounded">
+                <div asp-validation-summary="All" class="text-danger mb-3"></div>
+                <div class="form-floating mb-3 col-md-6">
+                    <input type="text" class="form-control border-0 shadow-sm" asp-for="Name" placeholder="Name" />
+                    <label asp-for="Name">Name</label>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3 col-md-6">
+                    <input type="text" class="form-control border-0 shadow-sm" asp-for="PhoneNumber" placeholder="Enter phone number" />
+                    <label asp-for="PhoneNumber">Phone Number</label>
+                </div>
+                <div class="form-floating mb-3 col-md-12">
+                    <input type="email" class="form-control border-0 shadow-sm" asp-for="Email" placeholder="Email" />
+                    <label asp-for="Email">Email</label>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                
+                <div class="form-floating mb-3 col-md-6">
+                    <input type="text" class="form-control border-0 shadow-sm" asp-for="StreetAddress" placeholder="Enter address" />
+                    <label asp-for="StreetAddress">Street Address</label>
+                </div>
+                <div class="form-floating mb-3 col-md-6">
+                    <input type="text" class="form-control border-0 shadow-sm" asp-for="City" placeholder="Enter city" />
+                    <label asp-for="City">City</label>
+                </div>
+                <div class="form-floating mb-3 col-md-6">
+                    <input type="text" class="form-control border-0 shadow-sm" asp-for="State" placeholder="Enter state" />
+                    <label asp-for="State">State</label>
+                </div>
+                <div class="form-floating mb-3 col-md-6">
+                    <input type="text" class="form-control border-0 shadow-sm" asp-for="PostalCode" placeholder="Enter postal code" />
+                    <label asp-for="PostalCode">Postal Code</label>
+                </div>
+                <div class="form-floating mb-3 col-md-6">
+                    <input type="password" class="form-control border-0 shadow-sm" asp-for="Password" placeholder="Password" />
+                    <label asp-for="Password">Password</label>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3 col-md-6">
+                    <input type="password" class="form-control border-0 shadow-sm" asp-for="ConfirmPassword" placeholder="Confirm Password" />
+                    <label asp-for="ConfirmPassword">Confirm Password</label>
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+                <div class="form-control mb-3">
+                    <label class="mb-2" asp-for="RoleId" style="color: #97979a">Role</label>
+                    <select class="form-select py-0" asp-for="RoleId" asp-items="@ViewBag.RoleList" style="border: none">
+                        <option disabled selected>--Select Role--</option>
+                    </select>
+                    <span asp-validation-for="RoleId" class="text-danger"></span>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-primary btn-lg">Create</button>
+                    <a asp-area="Admin" asp-controller="User" asp-action="Index" class="btn btn-outline-primary btn-lg">Back To List</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+

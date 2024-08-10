@@ -1,0 +1,25 @@
+﻿<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+@if (TempData["swalsuccess"] != null)
+{
+    <script type="text/javascript">
+        Swal.fire({
+            title: 'Success!',
+            html: '@Html.Raw(TempData["swalsuccess"].ToString())',
+            icon: 'success',
+            confirmButtonText: 'OK'
+        });
+    </script>
+}
+
+@if (TempData["swalerror"] != null)
+{
+    <script type="text/javascript">
+        Swal.fire({
+            title: 'Error!',
+            html: '@Html.Raw(TempData["swalerror"].ToString())',
+            icon: 'error',
+            confirmButtonText: 'OK'
+        });
+    </script>
+}
+

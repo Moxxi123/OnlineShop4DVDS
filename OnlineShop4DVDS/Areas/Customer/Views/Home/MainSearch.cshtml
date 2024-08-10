@@ -1,0 +1,171 @@
+﻿@using Ultility
+@model IEnumerable<ProductListViewModel>
+
+<div id="products" class="mt-2">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-5 mt-0" id="list-wrapper">
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                switch (item.ProductType)
+                {
+                    case StaticDetail.ProductType_Album:
+                        <!-- Product card for Album -->
+                        <div class="col" id="list-item">
+                            <div class="product-grid">
+                                <div class="product-image">
+                                    <a asp-area="Customer" asp-controller="Album" asp-action="Detail" asp-route-id="@item.ProductId" class="image">
+                                        <img src="/@item.ImageUrl" alt="Product Image">
+                                    </a>
+                                    @if (item.Promotion != null && item.Promotion.DiscountPercent > 0)
+                                    {
+                                        <span class="product-discount-label">@item.Promotion.DiscountPercent%</span>
+                                    }
+                                    <span class="content-type">@item.ContentType.Type</span>
+                                    @if (@item.ContentType.Type == StaticDetail.ContentType_Free)
+                                    {
+                                        <a asp-area="Customer" asp-controller="Album" asp-action="Detail" asp-route-id="@item.ProductId" class="add-to-cart">Detail</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-area="Customer" asp-controller="Home" asp-action="AddToCart" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType" class="add-to-cart">Add to Cart</a>
+                                    }
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a asp-area="Customer" asp-route-id="@item.ProductId" asp-controller="Album" asp-action="Detail">@item.Name</a></h3>
+                                    @if (item.PromotionPrice != null && item.PromotionPrice > 0)
+                                    {
+                                        <div class="price">$@item.PromotionPrice <span>@item.Price</span></div>
+                                    }
+                                    else
+                                    {
+                                        <div class="price">$@item.Price</div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        break;
+
+                    case StaticDetail.ProductType_Movie:
+                        <!-- Product card for Movie -->
+                        <div class="col" id="list-item">
+                            <div class="product-grid">
+                                <div class="product-image">
+                                    <a asp-area="Customer" asp-controller="Movie" asp-action="Detail" asp-route-id="@item.ProductId" class="image">
+                                        <img src="/@item.ImageUrl" alt="Product Image">
+                                    </a>
+                                    @if (item.Promotion != null && item.Promotion.DiscountPercent > 0)
+                                    {
+                                        <span class="product-discount-label">@item.Promotion.DiscountPercent%</span>
+                                    }
+                                    <span class="content-type">@item.ContentType.Type</span>
+                                    @if (@item.ContentType.Type == StaticDetail.ContentType_Free)
+                                    {
+                                        <a asp-area="Customer" asp-controller="Movie" asp-action="Detail" asp-route-id="@item.ProductId" class="add-to-cart">Detail</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-area="Customer" asp-controller="Home" asp-action="AddToCart" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType" class="add-to-cart">Add to Cart</a>
+                                    }
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a asp-area="Customer" asp-route-id="@item.ProductId" asp-controller="Movie" asp-action="Detail">@item.Name</a></h3>
+                                    @if (item.PromotionPrice != null && item.PromotionPrice > 0)
+                                    {
+                                        <div class="price">$@item.PromotionPrice <span>@item.Price</span></div>
+                                    }
+                                    else
+                                    {
+                                        <div class="price">$@item.Price</div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        break;
+
+                    case StaticDetail.ProductType_Game:
+                        <!-- Product card for Game -->
+                        <div class="col" id="list-item">
+                            <div class="product-grid">
+                                <div class="product-image">
+                                    <a asp-area="Customer" asp-controller="Game" asp-action="Detail" asp-route-id="@item.ProductId" class="image">
+                                        <img src="/@item.ImageUrl" alt="Product Image">
+                                    </a>
+                                    @if (item.Promotion != null && item.Promotion.DiscountPercent > 0)
+                                    {
+                                        <span class="product-discount-label">@item.Promotion.DiscountPercent%</span>
+                                    }
+                                    <span class="content-type">@item.ContentType.Type</span>
+                                    @if (@item.ContentType.Type == StaticDetail.ContentType_Free)
+                                    {
+                                        <a asp-area="Customer" asp-controller="Game" asp-action="Detail" asp-route-id="@item.ProductId" class="add-to-cart">Detail</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-area="Customer" asp-controller="Home" asp-action="AddToCart" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType" class="add-to-cart">Add to Cart</a>
+                                    }
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a asp-area="Customer" asp-route-id="@item.ProductId" asp-controller="Game" asp-action="Detail">@item.Name</a></h3>
+                                    @if (item.PromotionPrice != null && item.PromotionPrice > 0)
+                                    {
+                                        <div class="price">$@item.PromotionPrice <span class="original-price">$@item.Price</span></div>
+                                    }
+                                    else
+                                    {
+                                        <div class="price">$@item.Price</div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        break;
+                }
+            }
+        }
+        else
+        {
+            <div class="col-12 text-center">
+                <h2 class="mb-5">No data found</h2>
+                <img src="/images/nodatafound.svg" alt="No data">
+            </div>
+        }
+    </div>
+
+    <!--Pagination-->
+    <div class="mt-5" id="pagination-container"></div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            applyPagination();
+        });
+
+        function applyPagination() {
+            var items = $("#list-wrapper #list-item");
+            var numItems = items.length;
+            var perPage = 12;
+
+            if (numItems > 0) {
+                items.slice(perPage).hide();
+
+                $('#pagination-container').pagination({
+                    items: numItems,
+                    itemsOnPage: perPage,
+                    prevText: "&laquo;",
+                    nextText: "&raquo;",
+                    onPageClick: function (pageNumber) {
+                        var showFrom = perPage * (pageNumber - 1);
+                        var showTo = showFrom + perPage;
+                        items.hide().slice(showFrom, showTo).show();
+                    }
+                });
+
+                $('#pagination-container').show();
+            } else {
+                $('#pagination-container').hide();
+            }
+        }
+    </script>
+}
+

@@ -1,0 +1,162 @@
+﻿@model IEnumerable<OrderDetail>
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Order Details</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <h4>Order Information</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Product Type</th>
+                    <th>Product Name</th>
+                    <th>Original Price</th>
+                    <th>Discounted Price</th>
+                    <th>Quantity</th>
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var detail in Model)
+                {
+                    <tr>
+                        <td>@detail.Id</td>
+                        <td>@detail.ProductType</td>
+                        @if (detail.ProductType == "Album")
+                        {
+                            <td>@detail.Album.Name</td>
+                            @if (detail.Album.Price > detail.CurrentPrice)
+                            {
+                                <td>$@detail.Album.Price</td>
+                                <td>$@detail.CurrentPrice</td>
+                            }
+                            else
+                            {
+                                <td>$@detail.Album.Price</td>
+                                <td></td>
+                            }
+                        }
+                        else if (detail.ProductType == "Movie")
+                        {
+                            <td>@detail.Movie.Name</td>
+                            @if (detail.Movie.Price > detail.CurrentPrice)
+                            {
+                                <td>$@detail.Movie.Price</td>
+                                <td>$@detail.CurrentPrice</td>
+                            }
+                            else
+                            {
+                                <td>$@detail.Movie.Price</td>
+                                <td></td>
+                            }
+                        }
+                        else if (detail.ProductType == "Game")
+                        {
+                            <td>@detail.Game.Name</td>
+                            @if (detail.Game.Price > detail.CurrentPrice)
+                            {
+                                <td>$@detail.Game.Price</td>
+                                <td>$@detail.CurrentPrice</td>
+                            }
+                            else
+                            {
+                                <td>$@detail.Game.Price</td>
+                                <td></td>
+                            }
+                        }
+                        <td>@detail.Count</td>
+                        <td>$@detail.TotalPrice</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        @if (Model.Any())
+        {
+            var firstDetail = Model.First();
+            <div class="row">
+                <div class="col-md-6">
+                    @*                     <h2>Customer Information</h2> *@
+                    <dl class="row">
+                        <dt class="col-sm-4">Name</dt>
+                        <dd class="col-sm-8">@firstDetail.OrderItem.Name</dd>
+
+                        <dt class="col-sm-4">Phone Number</dt>
+                        <dd class="col-sm-8">@firstDetail.OrderItem.PhoneNumber</dd>
+
+                        <dt class="col-sm-4">Street Address</dt>
+                        <dd class="col-sm-8">@firstDetail.OrderItem.StreetAddress</dd>
+
+                        @if (!string.IsNullOrEmpty(firstDetail.OrderItem.City))
+                        {
+                            <dt class="col-sm-4">City</dt>
+                            <dd class="col-sm-8">@firstDetail.OrderItem.City</dd>
+                        }
+
+                        @if (!string.IsNullOrEmpty(firstDetail.OrderItem.State))
+                        {
+                            <dt class="col-sm-4">State</dt>
+                            <dd class="col-sm-8">@firstDetail.OrderItem.State</dd>
+                        }
+
+                        @if (!string.IsNullOrEmpty(firstDetail.OrderItem.PostalCode))
+                        {
+                            <dt class="col-sm-4">Postal Code</dt>
+                            <dd class="col-sm-8">@firstDetail.OrderItem.PostalCode</dd>
+                        }
+
+                        @if (!string.IsNullOrEmpty(firstDetail.OrderItem.Carrier))
+                        {
+                            <dt class="col-sm-4">Carrier</dt>
+                            <dd class="col-sm-8">@firstDetail.OrderItem.Carrier</dd>
+                        }
+
+                        @if (!string.IsNullOrEmpty(firstDetail.OrderItem.TrackingNumber))
+                        {
+                            <dt class="col-sm-4">Tracking</dt>
+                            <dd class="col-sm-8">@firstDetail.OrderItem.TrackingNumber</dd>
+                        }
+
+                        @if (!string.IsNullOrEmpty(firstDetail.OrderItem.CancelRequest))
+                        {
+                            <dt class="col-sm-4 text-danger">Cancel reason</dt>
+                            <dd class="col-sm-8">@firstDetail.OrderItem.CancelRequest</dd>
+                        }
+
+                    </dl>
+                </div>
+                <div class="col-md-6">
+                    @*                     <h2>Payment Information</h2> *@
+                    <dl class="row">
+                        <dt class="col-sm-4">Invoice Total</dt>
+                        <dd class="col-sm-8">$@firstDetail.OrderItem.OrderTotal</dd>
+
+                        <dt class="col-sm-4">Payment Method</dt>
+                        <dd class="col-sm-8">@firstDetail.OrderItem.PaymentMethod</dd>
+
+                        <dt class="col-sm-4">Payment Status</dt>
+                        <dd class="col-sm-8">@firstDetail.OrderItem.PaymentStatus</dd>
+
+                        <dt class="col-sm-4">Payment Date</dt>
+                        <dd class="col-sm-8">@firstDetail.OrderItem.PaymentDate</dd>
+
+                        <dt class="col-sm-4">Order Status</dt>
+                        <dd class="col-sm-8">@firstDetail.OrderItem.OrderStatus</dd>
+
+                        <dt class="col-sm-4">Order Date</dt>
+                        <dd class="col-sm-8">@firstDetail.OrderItem.OrderDate</dd>
+
+                    </dl>
+                </div>
+            </div>
+        }
+        <div class="col-6 col-md-3">
+            <a asp-area="Admin" asp-controller="Order" asp-action="Index" class="btn btn-outline-primary border form-control">Back To List</a>
+        </div>
+    </div>
+</div>

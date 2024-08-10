@@ -1,0 +1,390 @@
+﻿@* @{
+    var groupedOrderStatus = ViewBag.GroupedOrderStatus;
+}
+@{
+    var totalOrderTotalMonth = ViewBag.totalOrderTotalMonth as decimal?;
+}
+@{
+    var totalOrderTotalyear = ViewBag.totalOrderTotalyear as decimal?;
+}
+
+@{
+    var totalOrders = ViewBag.TotalOrders ?? 0;
+}
+@{
+    var totalProductCount = ViewBag.TotalProductCount ?? 0;
+}
+
+<main class="container">
+    <div class="container-fluid px-4">
+        <div class="row">
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-primary text-white mb-4">
+                    <div class="card-body">Monthly Revenue</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <h3 class="small text-white stretched-link"> $@totalOrderTotalMonth.Value.ToString() </h3>
+                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-warning text-white mb-4">
+                    <div class="card-body">Annual Revenue</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <h3 class="small text-white stretched-link"> $@totalOrderTotalyear.Value.ToString() </h3>
+                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-success text-white mb-4">
+                    <div class="card-body">Order Total</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <h3 class="small text-white stretched-link">@totalOrders </h3>
+                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-danger text-white mb-4">
+                    <div class="card-body">Product quantity</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <h3 class="small text-white stretched-link"> @totalProductCount </h3>
+                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-chart-area me-1"></i>
+                        Top selling products
+                    </div>
+                    <div class="card-body">
+                        <canvas id="productChartQuantityByNameOne" width="100%" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-chart-bar me-1"></i>
+                        Order Status
+                    </div>
+                    <div class="card-body">
+                        <canvas id="Chartdoughnut" width="400" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Fetch data from the ChartDoughnut action
+        fetch("@Url.Action("ChartDoughnut", "Home")")
+            .then(res => res.json())
+            .then(data => {
+                // Generate random colors for the chart
+                const randomColors = [];
+                for (let i = 0; i < data.labels.length; i++) {
+                    const r = Math.floor(Math.random() * 255);
+                    const g = Math.floor(Math.random() * 255);
+                    const b = Math.floor(Math.random() * 255);
+                    const a = Math.random().toFixed(2);
+                    randomColors.push(`rgba(${r},${g},${b},${a})`);
+                }
+
+                // Create the doughnut chart
+                var ctx = document.getElementById("Chartdoughnut").getContext("2d");
+                var myChartdoughnut = new Chart(ctx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: data.labels,
+                        datasets: [{
+                            label: "",
+                            data: data.quantities,
+                            backgroundColor: randomColors,
+                            borderColor: 'rgb(255, 99, 132)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false, // Ensures the chart does not shrink
+                        plugins: {
+                            legend: {
+                                position: 'top',
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function (context) {
+                                        let label = context.label || '';
+                                        if (label) {
+                                            label += ': ';
+                                        }
+                                        if (context.parsed) {
+                                            label += context.parsed.toLocaleString();
+                                        }
+                                        return label;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            })
+            .catch(error => console.error('Error fetching chart data:', error));
+
+        fetch("@Url.Action("ChartOrder", "Home")")
+            .then(res => res.json())
+            .then(data => {
+                const randomColors = [];
+                for (let i = 0; i < data.labels.length; i++) {
+                    const r = Math.floor(Math.random() * 255);
+                    const g = Math.floor(Math.random() * 255);
+                    const b = Math.floor(Math.random() * 255);
+                    const a = Math.random().toFixed(2);
+                    randomColors.push(`rgba(${r},${g},${b},${a})`);
+                }
+
+                // Chart line
+                var ctx = document.getElementById("productChartQuantityByNameOne").getContext("2d");
+                var myChartOne = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: data.labels,
+                        datasets: [
+                            {
+                                label: "selling products",
+                                data: data.quantities,
+                                backgroundColor: randomColors,
+                                borderColor: 'rgb(255, 99, 132)',
+                                borderWidth: 1
+                            }
+                        ]
+                    },
+                    options: {
+                        tooltips: { enabled: false },
+                        hover: { mode: null },
+                        maintainAspectRatio: false,
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            });
+    </script>
+}
+
+
+ *@
+
+@{
+    var groupedOrderStatus = ViewBag.GroupedOrderStatus;
+}
+@{
+    var totalOrderTotalMonth = ViewBag.totalOrderTotalMonth as decimal?;
+}
+@{
+    var totalOrderTotalyear = ViewBag.totalOrderTotalyear as decimal?;
+}
+
+@{
+    var totalOrders = ViewBag.TotalOrders ?? 0;
+}
+@{
+    var totalProductCount = ViewBag.TotalProductCount ?? 0;
+}
+<style>
+    .center-text {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .card-body-chart {
+        height: 400px; /* Đặt chiều cao bằng nhau cho các thẻ chứa biểu đồ */
+        padding: 0; /* Tùy chọn để loại bỏ padding nếu không cần thiết */
+    }
+</style>
+<main class="container">
+    <div class="container-fluid px-4">
+        @*         <h1 class="mt-4">Home</h1> *@
+        <div class="row">
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-primary text-white mb-4">
+                    <div class="card-body">Monthly Revenue</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <h3 class="small text-white center-text"> $@totalOrderTotalMonth.Value.ToString()</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-warning text-white mb-4">
+                    <div class="card-body">Annual Revenue</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <h3 class="small text-white center-text"> $@totalOrderTotalyear.Value.ToString() </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-success text-white mb-4">
+                    <div class="card-body">Order Total</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <h3 class="small text-white center-text">@totalOrders </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-danger text-white mb-4">
+                    <div class="card-body">Product quantity</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <h3 class="small text-white center-text"> @totalProductCount </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-chart-area me-1"></i>
+                        Top selling products
+                    </div>
+                    <div class="card-body-chart">
+                        <canvas id="productChartQuantityByNameOne" width="100%" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-chart-bar me-1"></i>
+                        Order Status
+                    </div>
+                    <div class="card-body-chart">
+                        <canvas id="Chartdoughnut" width="100%" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Fetch data from the ChartDoughnut action
+        fetch("@Url.Action("ChartDoughnut", "Home")")
+            .then(res => res.json())
+            .then(data => {
+                // Generate random colors for the chart
+                const randomColors = [];
+                for (let i = 0; i < data.labels.length; i++) {
+                    const r = Math.floor(Math.random() * 255);
+                    const g = Math.floor(Math.random() * 255);
+                    const b = Math.floor(Math.random() * 255);
+                    const a = Math.random().toFixed(2);
+                    randomColors.push(`rgba(${r},${g},${b},${a})`);
+                }
+
+                // Create the doughnut chart
+                var ctx = document.getElementById("Chartdoughnut").getContext("2d");
+                var myChartdoughnut = new Chart(ctx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: data.labels,
+                        datasets: [{
+                            label: "",
+                            data: data.quantities,
+                            backgroundColor: randomColors,
+                            borderColor: 'rgb(255, 99, 132)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false, // Ensures the chart does not shrink
+                        plugins: {
+                            legend: {
+                                position: 'top',
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function (context) {
+                                        let label = context.label || '';
+                                        if (label) {
+                                            label += ': ';
+                                        }
+                                        if (context.parsed) {
+                                            label += context.parsed.toLocaleString();
+                                        }
+                                        return label;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            })
+            .catch(error => console.error('Error fetching chart data:', error));
+
+        // Fetch data from the ChartOrder action
+        fetch("@Url.Action("ChartOrder", "Home")")
+            .then(res => res.json())
+            .then(data => {
+                const randomColors = [];
+                for (let i = 0; i < data.labels.length; i++) {
+                    const r = Math.floor(Math.random() * 255);
+                    const g = Math.floor(Math.random() * 255);
+                    const b = Math.floor(Math.random() * 255);
+                    const a = Math.random().toFixed(2);
+                    randomColors.push(`rgba(${r},${g},${b},${a})`);
+                }
+
+                // Chart line
+                var ctx = document.getElementById("productChartQuantityByNameOne").getContext("2d");
+                var myChartOne = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: data.labels,
+                        datasets: [
+                            {
+                                label: "Selling Products",
+                                data: data.quantities,
+                                backgroundColor: randomColors,
+                                borderColor: 'rgb(255, 99, 132)',
+                                borderWidth: 1
+                            }
+                        ]
+                    },
+                    options: {
+                        plugins: {
+                            tooltip: {
+                                enabled: true, // Hiển thị tooltips khi hover
+                                callbacks: {
+                                    title: function (tooltipItems) {
+                                        return tooltipItems.map(item => data.labels[item.dataIndex]);
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                display: false // Ẩn nhãn trên trục x
+                            },
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        responsive: true,
+                        maintainAspectRatio: false // Cho phép biểu đồ điều chỉnh theo kích thước của phần tử chứa
+                    }
+                });
+            });
+    </script>
+}

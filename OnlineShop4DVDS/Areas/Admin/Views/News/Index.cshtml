@@ -1,0 +1,44 @@
+﻿<style>
+    #tableData tbody td {
+        vertical-align: middle;
+    }
+</style>
+
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">News List</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row pb-3">
+            <div class="col-6">
+            </div>
+            <div class="col-6 text-end">
+                <a asp-area="Admin" asp-controller="News" asp-action="Create" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> Create News
+                </a>
+            </div>
+        </div>
+        <table class="table table-bordered table-striped" id="tableData" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Photo</th>
+                    <th>Publish Date</th>
+                    <th>Summary</th>
+                    <th>News Category</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/Asset/Admin/js/news.js"></script>
+}

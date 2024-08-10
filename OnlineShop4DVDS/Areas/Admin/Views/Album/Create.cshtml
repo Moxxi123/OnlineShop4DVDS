@@ -1,0 +1,178 @@
+﻿@using Ultility
+@model Album
+
+
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient py-4">
+        <div class="text-center">
+            <h2 class="text-white mb-0">Create Album</h2>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <form asp-area="Admin" asp-action="Create" class="row" enctype="multipart/form-data" method="post">
+            <div class="border p-4 rounded">
+                <div asp-validation-summary="All" class="text-danger mb-3"></div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control border-0 shadow-sm" asp-for="Name" placeholder="Name" />
+                    <label asp-for="Name">Album Title</label>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea type="text" class="form-control border-0 shadow-sm" asp-for="Description" placeholder="Description"></textarea>
+                    <label asp-for="Description">Description</label>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="date" class="form-control border-0 shadow-sm" asp-for="ReleaseDate" placeholder="Release Date" />
+                    <label asp-for="ReleaseDate">Release Date</label>
+                    <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+                </div>
+                <div class="form-control mb-3">
+                    <label class="mb-2" for="ArtistId" style="color: #97979a">Artist</label>
+                    <select id="ArtistId" class="form-select py-0" asp-for="ArtistId" asp-items="@ViewBag.ArtistList" style="border: none">
+                        <option disabled selected>--Select Artist--</option>
+                    </select>
+                    <span asp-validation-for="ArtistId" class="text-danger"></span>
+                </div>
+                <div class="form-control mb-3">
+                    <label class="mb-2" for="" style="color: #97979a">Album Producer</label>
+                    <select id="AlbumProducerId" class="form-select py-0" asp-for="AlbumProducerId" asp-items="@ViewBag.AlbumProducerList" style="border: none">
+                        <option disabled selected>--Select Producer--</option>
+                    </select>
+                    <span asp-validation-for="AlbumProducerId" class="text-danger"></span>
+                </div>
+                <div class="form-control mb-3">
+                    <label class="mb-2" for="ContentTypeId" style="color: #97979a">Content Type</label>
+                    <select id="ContentTypeId" class="form-select py-0" asp-for="ContentTypeId" asp-items="@ViewBag.ContentTypeList" style="border: none" onchange="handleContentTypeChange()">
+                        <option disabled selected>--Select Content Type--</option>
+                    </select>
+                    <span asp-validation-for="ContentTypeId" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="number" step="0.01" class="form-control border-0 shadow-sm" asp-for="Price" id="Price" placeholder="Price" oninput="calculatePromotionPrice()" />
+                    <label asp-for="Price">Price</label>
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="form-control mb-3" id="discountPercentContainer">
+                    <label class="mb-2" for="PromotionId" style="color: #97979a">Discount Percent</label>
+                    <select id="PromotionId" class="form-select py-0" asp-for="PromotionId" style="border: none" onchange="calculatePromotionPrice()">
+                        <option disabled selected>--Select Discount Percent--</option>
+                        @foreach (var promotion in (List<PromotionViewModel>)ViewBag.PromotionList)
+                        {
+                            <option value="@promotion.Id" data-discount-percent="@promotion.DiscountPercent">@promotion.DiscountPercent%</option>
+                        }
+                    </select>
+                    <span asp-validation-for="PromotionId" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3" id="promotionPriceContainer">
+                    <input type="number" class="form-control border-0 shadow-sm" asp-for="PromotionPrice" id="PromotionPrice" placeholder="Promotion Price" readonly />
+                    <label asp-for="PromotionPrice">Promotion Price</label>
+                    <span asp-validation-for="PromotionPrice" class="text-danger"></span>
+                </div>
+                <div class="form-control mb-3">
+                    <label class="mb-2" for="AlbumCategoryID" style="color: #97979a">Album Category</label>
+                    <select id="AlbumCategoryID" class="form-select py-0" asp-for="AlbumCategoryID" asp-items="@ViewBag.AlbumCategoryList" style="border: none">
+                        <option disabled selected>--Select Album Category--</option>
+                    </select>
+                    <span asp-validation-for="AlbumCategoryID" class="text-danger"></span>
+                </div>
+                <div class="form-control mb-3">
+                    <label class="mb-2" for="MusicUrl" style="color: #97979a">Music Link</label>
+                    <input type="text" id="MusicUrl" name="MusicUrl" class="form-control py-0" placeholder="Enter music spotify link" style="border: none" required>
+                    <span asp-validation-for="MusicUrl" class="text-danger"></span>
+                </div>
+                <div class="form-control mb-3">
+                    <label class="mb-2" for="MainImage" style="color: #97979a">Image</label>
+                    <input type="file" name="MainImage" class="form-control" id="MainImage" style="border: none" />
+                    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                </div>
+                <div class="form-control mb-3">
+                    <label class="mb-2" for="File" style="color: #97979a">File Upload</label>
+                    <input type="file" name="File" class="form-control" id="File" style="border: none" />
+                    <span asp-validation-for="FileUrl" class="text-danger"></span>
+                </div>
+                <div class="row pt-2">
+                    <div class="col-6 col-md-3">
+                        <button type="submit" class="btn btn-primary form-control">Create</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a asp-area="Admin" asp-controller="Album" asp-action="Index" class="btn btn-outline-primary border form-control">Back To List</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function calculatePromotionPrice() {
+            var price = parseFloat(document.getElementById('Price').value);
+            var discountSelect = document.getElementById('PromotionId');
+            var selectedOption = discountSelect.options[discountSelect.selectedIndex];
+            var discountPercent = parseFloat(selectedOption.getAttribute('data-discount-percent'));
+
+            //console.log("Price:", price);
+            //console.log("Discount Percent:", discountPercent);
+
+            if (!isNaN(price) && !isNaN(discountPercent) && discountPercent > 0) {
+                var discount = (discountPercent * price / 100);
+                var promotionPrice = price - discount;
+
+                //console.log("Discount:", discount);
+                //console.log("Promotion Price:", promotionPrice);
+
+                document.getElementById('PromotionPrice').value = promotionPrice.toFixed(2);
+                document.getElementById('promotionPriceContainer').style.display = 'block';
+            } else {
+                document.getElementById('PromotionPrice').value = '';
+                document.getElementById('promotionPriceContainer').style.display = 'none';
+            }
+        }
+
+        function handleContentTypeChange() {
+            var contentTypeSelect = document.getElementById('ContentTypeId');
+            var selectedContentType = contentTypeSelect.options[contentTypeSelect.selectedIndex].text;
+
+            if (selectedContentType.toLowerCase() === '@StaticDetail.ContentType_Free'.toLowerCase()) {
+                document.getElementById('Price').value = 0;
+                document.getElementById('PromotionPrice').value = '';
+                document.getElementById('Price').readOnly = true;
+                document.getElementById('PromotionId').disabled = true;
+                document.getElementById('promotionPriceContainer').style.display = 'none';
+                document.getElementById('discountPercentContainer').style.display = 'none';
+            } else {
+                document.getElementById('Price').readOnly = false;
+                document.getElementById('PromotionId').disabled = false;
+                document.getElementById('discountPercentContainer').style.display = 'block';
+            }
+        }
+
+        function handleSubmit() {
+            var contentTypeSelect = document.getElementById('ContentTypeId');
+            var selectedContentType = contentTypeSelect.options[contentTypeSelect.selectedIndex].text;
+
+            if (selectedContentType.toLowerCase() === '@StaticDetail.ContentType_Free'.toLowerCase()) {
+                document.getElementById('Price').value = 0;
+                document.getElementById('PromotionPrice').value = '';
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var promotionPriceContainer = document.getElementById('promotionPriceContainer');
+            if (document.getElementById('PromotionPrice').value === "") {
+                promotionPriceContainer.style.display = 'none';
+            }
+        });
+
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount linkchecker paste',
+            menubar: 'edit',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | paste pastetext',
+        });
+    </script>
+    <partial name="_ValidationScriptsPartial" />
+}
+
+

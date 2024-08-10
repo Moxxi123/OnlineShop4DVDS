@@ -1,0 +1,330 @@
+﻿@model IEnumerable<Album>
+@using DataAccess.Repository.IRepository
+@using Ultility
+@inject IUnitOfWork _unitOfWork
+@{
+    var contentTypeList = await _unitOfWork.ContentTypeRepository.GetAll(c => c.Status == false);
+    var AlbumCategoryList = await _unitOfWork.AlbumCategoryRepository.GetAll(a => a.Status == false);
+    var AlbumProducerList = await _unitOfWork.AlbumProducerRepository.GetAll(a => a.Status == false);
+    var AlbumArtistList = await _unitOfWork.ArtistRepository.GetAll(a => a.Status == false);
+}
+
+<div class="listing-banner-part d-inline-block w-100">
+    <div class="container">
+        <h2 class="text-white"> Album </h2>
+    </div>
+</div>
+
+<div class="row gx-lg-5">
+    <div class="col-lg-3">
+        <div class="accordion mt-4 list-serach-acd" id="accordionPanelsStayOpenExample">
+            <!-- Content Type Filter -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        Content Type
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body my-4">
+                        @foreach (var item in contentTypeList)
+                        {
+                            <div class="form-check">
+                                <input class="form-check-input" name="contentType" type="checkbox" value="@item.Id" id="contentType-@item.Id">
+                                <label class="form-check-label" for="contentType-@item.Id">
+                                    @item.Type
+                                </label>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            <!-- Category Filter -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false">
+                        Category
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
+                    <div class="accordion-body my-5">
+                        @foreach (var item in AlbumCategoryList)
+                        {
+                            <div class="form-check">
+                                <input class="form-check-input" name="category" type="checkbox" value="@item.Id" id="AlbumCategory-@item.Id" @(item.Id == ViewBag.CategoryId ? "checked" : "")>
+                                <label class="form-check-label" for="AlbumCategory-@item.Id">
+                                    @item.Name
+                                </label>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <!-- Price Filter -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree">
+                        Price
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show">
+                    <div class="accordion-body mt-0 mb-0">
+                        <div class="form-group">
+                            <div class="price-range-slider">
+                                <p class="range-value">
+                                    <input type="text" id="amount" readonly />
+                                </p>
+                                <div id="slider-range" class="range-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artist Filter -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour">
+                        Artist
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show">
+                    <div class="accordion-body my-5">
+                        @foreach (var item in AlbumArtistList)
+                        {
+                            <div class="form-check">
+                                <input class="form-check-input" name="artist" type="checkbox" value="@item.Id" id="Artist-@item.Id">
+                                <label class="form-check-label rt-icon" for="Artist-@item.Id">
+                                    @item.ArtistName
+                                </label>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producer Filter -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive">
+                        Producer
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show">
+                    <div class="accordion-body my-5">
+                        @foreach (var item in AlbumProducerList)
+                        {
+                            <div class="form-check">
+                                <input class="form-check-input" name="producer" type="checkbox" value="@item.Id" id="AlbumProducer-@item.Id">
+                                <label class="form-check-label rt-icon" for="AlbumProducer-@item.Id">
+                                    @item.ProducerName
+                                </label>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="col-lg-9 mt-5 mt-lg-0">
+        <!-- Price Sort -->
+        <div class="d-flex justify-content-end align-items-center">
+            <div class="right-section-btn d-flex align-items-center">
+                <div class="dropdown">
+                    <button class="btn bg-light dfg" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Default sorting
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item sort-option" data-sort="@StaticDetail.PriceFilter_LowToHigh">low to high</a></li>
+                        <li><a class="dropdown-item sort-option" data-sort="@StaticDetail.PriceFilter_HighToLow">high to low</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="products" class="mt-2">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-5 mt-0" id="list-wrapper">
+                @foreach (var item in Model)
+                {
+                    <!-- Product card -->
+                    <div class="col" id="list-item">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <a asp-area="Customer" asp-controller="Album" asp-action="Detail" asp-route-id="@item.Id" class="image">
+                                    <img src="/@item.ImageUrl" alt="Product Image">
+                                </a>
+                                @if (item.Promotion != null && item.Promotion.DiscountPercent > 0)
+                                {
+                                    <span class="product-discount-label">@item.Promotion.DiscountPercent%</span>
+                                }
+                                <span class="content-type">@item.ContentType.Type</span>
+                                @if (@item.ContentType.Type == StaticDetail.ContentType_Free)
+                                {
+                                    <a asp-area="Customer" asp-controller="Album" asp-action="Detail" asp-route-id="@item.Id" class="add-to-cart">Detail</a>
+                                }
+                                else
+                                {
+                                    <a asp-area="Customer" asp-controller="Album" asp-action="AddToCart" asp-route-id="@item.Id" class="add-to-cart">Add to Cart</a>
+                                }
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title"><a asp-area="Customer" asp-route-id="@item.Id" asp-controller="Album" asp-action="Detail">@item.Name</a></h3>
+                                @if (item.PromotionPrice != null && item.PromotionPrice > 0)
+                                {
+                                    <div class="price">$@item.PromotionPrice <span>@item.Price</span></div>
+                                }
+                                else
+                                {
+                                    <div class="price">$@item.Price</div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <!--Pagination-->
+            <div class="mt-5" id="pagination-container"></div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var minPrice = 0;
+            var maxPrice = 500;
+            var sortOrder = '';
+
+            function applyPagination() {
+                var items = $("#list-wrapper #list-item");
+                var numItems = items.length;
+                var perPage = 9;
+
+                if (numItems > 0) {
+                    items.slice(perPage).hide();
+
+                    $('#pagination-container').pagination({
+                        items: numItems,
+                        itemsOnPage: perPage,
+                        prevText: "&laquo;",
+                        nextText: "&raquo;",
+                        onPageClick: function (pageNumber) {
+                            var showFrom = perPage * (pageNumber - 1);
+                            var showTo = showFrom + perPage;
+                            items.hide().slice(showFrom, showTo).show();
+                        }
+                    });
+
+                    $('#pagination-container').show();
+                } else {
+                    $('#pagination-container').hide();
+                }
+            }
+
+            function handleCheckboxChange() {
+                var selectedContentType = $('input[name="contentType"]:checked').map(function () {
+                    return $(this).val();
+                }).get();
+                var selectedCategory = $('input[name="category"]:checked').map(function () {
+                    return $(this).val();
+                }).get();
+                var selectedArtist = $('input[name="artist"]:checked').map(function () {
+                    return $(this).val();
+                }).get();
+                var selectedProducer = $('input[name="producer"]:checked').map(function () {
+                    return $(this).val();
+                }).get();
+
+                $.ajax({
+                    url: '/customer/album/getfilterproduct',
+                    type: 'POST',
+                    contentType: "application/json",
+                    data: JSON.stringify({
+                        ContentTypeId: selectedContentType,
+                        CategoryId: selectedCategory,
+                        ArtistId: selectedArtist,
+                        ProducerId: selectedProducer,
+                        MinPrice: minPrice,
+                        MaxPrice: maxPrice,
+                        SortOrder: sortOrder
+                    }),
+                    success: function (result) {
+                        updateProductList(result.data);
+                    }
+                });
+            }
+
+            function updateProductList(albums) {
+                var productList = '';
+                if (albums.length === 0) {
+                    productList = `
+                                <div class="col-12 text-center">
+                                    <h2 class="mb-5">No data found</h2>
+                                    <img src="/images/nodatafound.svg" alt="No data">
+                                </div>
+                                `;
+                } else {
+                    $.each(albums, function (index, album) {
+                        productList += `
+                <div class="col" id="list-item">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="/Customer/Album/Detail/${album.id}" class="image">
+                                <img src="/${album.imageUrl}" alt="Product Image">
+                            </a>
+                            ${album.promotion && album.promotion.discountPercent > 0 ? `<span class="product-discount-label">${album.promotion.discountPercent}%</span>` : ''}
+                            <span class="content-type">${album.contentType.type}</span>
+                            ${album.contentType.type === "Free Content" ? `
+                            <a href="/Customer/Album/Detail/${album.id}" class="add-to-cart">Detail</a>
+                            ` : `
+                            <a href="/Customer/Album/AddToCart/${album.id}" class="add-to-cart">Add to Cart</a>
+                            `}
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="/Customer/Album/Detail/${album.id}">${album.name}</a></h3>
+                            ${album.promotionPrice && album.promotionPrice > 0 ? `
+                            <div class="price">$${album.promotionPrice} <span>$${album.price}</span></div>
+                            ` : `<div class="price">$${album.price}</div>`}
+                        </div>
+                    </div>
+                </div>
+                `;
+                    });
+                }
+                $('#products .row').html(productList);
+
+                // Reapply pagination
+                applyPagination();
+            }
+
+            $('input[name="contentType"], input[name="category"], input[name="artist"], input[name="producer"]').on('change', handleCheckboxChange);
+
+            // Initialize price slider
+            $("#slider-range").slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [0, 500],
+                slide: function (event, ui) {
+                    $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+                    minPrice = ui.values[0];
+                    maxPrice = ui.values[1];
+                    handleCheckboxChange();
+                }
+            });
+            $("#amount").val("$" + $("#slider-range").slider("values", 0) + " - $" + $("#slider-range").slider("values", 1));
+
+            // Handle sorting
+            $('.sort-option').on('click', function () {
+                sortOrder = $(this).data('sort');
+                handleCheckboxChange();
+            });
+
+            // Initial pagination
+            applyPagination();
+        });
+    </script>
+}

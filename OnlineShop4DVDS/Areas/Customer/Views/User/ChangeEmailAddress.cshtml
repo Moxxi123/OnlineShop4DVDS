@@ -1,0 +1,74 @@
+﻿@using Ultility
+@model ChangeEmailAddressViewModel
+@{
+    string userId = Model.UserId;
+}
+
+<div>
+    <div class="row">
+        <!-- Header -->
+        <div class="col-md-12">
+            <div class="card-header ml-0 py-4" style="background-color: #1d1d1d;">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="text-white py-2">Edit User</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <partial name="_Sidebar" model="userId" />
+
+        <!-- Main Content -->
+        <div class="col-md-10" style="font-size: 1.2em">
+            <div class="card shadow border-0 my-4">
+                <div class="card-body p-4">
+                    <!-- Form Section -->
+                    <div style="font-size: 1.2em">
+                        <div class="mb-3" style="font-size: 1.2em">
+                            <h2>Change Email Address</h2>
+                        </div>
+                        <form class="row" asp-area="Customer" asp-controller="User" asp-action="ChangeEmailAddress" method="post">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+                            <input asp-for="@Model.UserId" hidden />
+                            <input asp-for="@Model.OldEmailAddress" hidden />
+                            <div class="mt-2 mb-4 col-12" style="font-size: 0.8em">
+                                <h5>Current Email: @Model.OldEmailAddress</h5>
+                            </div>
+                            <div class="form-control mb-3" style="font-size: 0.8em">
+                                <label asp-for="NewEmailAddress" style="color: #97979a">New Email Address</label>
+                                <input type="email" class="form-control ps-0" asp-for="NewEmailAddress" placeholder="Enter email" style="font-size: 0.9em; background-color: transparent; border: none; outline: none; box-shadow: none; focus-visible:ring-transparent;" />
+                                <span asp-validation-for="NewEmailAddress" class="text-danger"></span>
+                            </div>
+                            <div class="form-control mb-3" style="font-size: 0.8em">
+                                <label asp-for="Password" style="color: #97979a">Password</label>
+                                <input type="password" class="form-control ps-0" asp-for="Password" placeholder="Enter password" style="font-size: 0.9em; background-color: transparent; border: none; outline: none; box-shadow: none; focus-visible:ring-transparent;" />
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col-1 col-md-1 ps-0 me-3">
+                                    <button type="submit" class="btn btn-lg" style="font-size: 0.8em; background-color: #f72457; color: white">Update</button>
+                                </div>
+                                <div class="col-2 col-md-2 ps-0 d-flex align-items-center">
+                                    @if (!User.IsInRole(StaticDetail.Role_Customer))
+                                    {
+                                        <a asp-area="Admin" asp-controller="User" asp-action="Index" class="btn btn-lg mx-0" style="font-size: 0.8em; background-color: blue; color: white">Back To List</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-area="Customer" asp-controller="Home" asp-action="Index" class="btn btn-lg mx-0" style="font-size: 0.8em; background-color: blue; color: white">Back To Home</a>
+                                    }
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

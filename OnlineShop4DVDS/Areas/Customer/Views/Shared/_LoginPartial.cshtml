@@ -1,0 +1,43 @@
+﻿@using DataAccess.Data
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore
+
+@inject UserManager<IdentityUser> UserManager
+@inject SignInManager<IdentityUser> SignInManager
+@inject DatabaseContext _dbContext
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item dropdown position-relative">
+        @{
+            var userId = UserManager.GetUserId(User);
+            var user = await _dbContext.ApplicationUsers.FirstOrDefaultAsync(a => a.Id == userId);
+            var userName = user?.Name;
+        }
+
+        <a class="btn login-btn dropdown-toggle me-4" href="/customer/user/edit?userId=@userId" role="button" data-bs-toggle="dropdown">
+            Hello @userName
+        </a>
+
+        <ul class="dropdown-menu normaldrop">
+            <li><a class="dropdown-item" href="/customer/user/edit?userId=@userId">Account Manager</a></li>
+            <li><a class="dropdown-item" href="/customer/order/index">Order History</a></li>         
+            <li>
+                <form id="logOutForm" method="post" asp-area="Customer" asp-controller="Account" asp-action="LogOut">
+                    <button type="submit" class="dropdown-item" style="margin-left: 20px">Logout</button>
+                </form>
+            </li>
+        </ul>
+    </li>
+    
+}
+else
+{
+    <li id="loginBtn">
+        <a data-bs-toggle="modal" data-bs-target="#loginModal" class="btn login-btn">Login</a>
+    </li>
+    <li>
+        <a class="btn login-btn" asp-area="Customer" asp-controller="Account" asp-action="Register">Register</a>
+    </li>
+}
+

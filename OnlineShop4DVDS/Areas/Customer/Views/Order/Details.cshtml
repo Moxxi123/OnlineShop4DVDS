@@ -1,0 +1,283 @@
+﻿@* @model IEnumerable<OrderDetail>
+<div class="card shadow border-0 my-4">
+    <div class="card-body p-4">
+
+        <h2>Order Details</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Original Price</th>
+                    <th>Discounted Price</th>
+                    <th>Quantity</th>
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var detail in Model)
+                {
+                    <tr>
+                        <td>
+                            @if (detail.ProductType == "Album")
+                            {
+                                @detail.Album.Name
+                            }
+                            else if (detail.ProductType == "Movie")
+                            {
+                                @detail.Movie.Name
+                            }
+                            else if (detail.ProductType == "Game")
+                            {
+                                @detail.Game.Name
+                            }
+                        </td>
+                        <td>
+                            @if (detail.ProductType == "Album")
+                            {
+                                @if (detail.Album.Price > detail.CurrentPrice)
+                                {
+                                    @detail.Album.Price
+                                }
+                                else
+                                {
+                                    @detail.Album.Price
+                                }
+                            }
+                            else if (detail.ProductType == "Movie")
+                            {
+                                @if (detail.Movie.Price > detail.CurrentPrice)
+                                {
+                                    @detail.Movie.Price
+                                }
+                                else
+                                {
+                                    @detail.Movie.Price
+                                }
+                            }
+                            else if (detail.ProductType == "Game")
+                            {
+                                @if (detail.Game.Price > detail.CurrentPrice)
+                                {
+                                    @detail.Game.Price
+                                }
+                                else
+                                {
+                                    @detail.Game.Price
+                                }
+                            }
+                        </td>
+                        <td>
+                            @if (detail.ProductType == "Album" && detail.Album.Price > detail.CurrentPrice)
+                            {
+                                @detail.CurrentPrice
+                            }
+                            else if (detail.ProductType == "Movie" && detail.Movie.Price > detail.CurrentPrice)
+                            {
+                                @detail.CurrentPrice
+                            }
+                            else if (detail.ProductType == "Game" && detail.Game.Price > detail.CurrentPrice)
+                            {
+                                @detail.CurrentPrice
+                            }
+
+                        </td>
+                        <td>@detail.Count</td>
+                        <td>@detail.TotalPrice</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        @if (Model.Any())
+        {
+            var firstDetail = Model.First();
+            <dl class="row">
+                <dt class="col-sm-4">Total Quantity</dt>
+                <dd class="col-sm-8">@firstDetail.OrderItem.CountTotal</dd>
+
+                <dt class="col-sm-4">Total Invoice</dt>
+                <dd class="col-sm-8">@firstDetail.OrderItem.OrderTotal</dd>
+            </dl>
+        }
+
+        <div class="col-6 col-md-3">
+            <a asp-area="Customer" asp-controller="Order" asp-action="Index" class="btn btn-outline-primary border form-control">Back To List</a>
+        </div>
+    </div>
+</div> *@
+
+
+@using System.Security.Claims
+@using Ultility
+@model IEnumerable<OrderDetail>
+@{
+    var claimsIdentity = (ClaimsIdentity)User.Identity;
+    var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+}
+<style>
+    .center-text {
+       /*  text-align: center; */
+        vertical-align: middle;
+    }
+
+    .product-image {
+        width: 100px; /* Hoặc kích thước bạn muốn */
+        height: 100px; /* Hoặc kích thước bạn muốn */
+        object-fit: cover; /* Đảm bảo ảnh không bị méo */
+    }
+</style>
+<div>
+    <div class="row">
+        <!-- Header -->
+        <div class="col-md-12">
+            <div class="card-header ml-0 py-4" style="background-color: #1d1d1d;">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="text-white py-2">Edit User</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <partial name="_Sidebar" model="userId" />
+
+        <!-- Main Content -->
+        <div class="col-md-10" style="font-size: 1.2em">
+            <div class="card shadow border-0 my-4">
+                <div class="card-body p-4">
+
+                    <!-- Form Section -->
+                    <div style="font-size: 1.2em">
+                        <div class="mb-4">
+                            <h2>Order Detail</h2>
+                        </div>
+                        <table class="table mb-5" style="width:100%; font-size: 0.7em">
+                            <thead>
+                                <tr>
+                                    <th>Product Name</th>
+                                    <th>Image</th>
+                                    <th>Original Price</th>
+                                    <th>Discounted Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var detail in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @if (detail.ProductType == "Album")
+                                            {
+                                                @detail.Album.Name
+                                            }
+                                            else if (detail.ProductType == "Movie")
+                                            {
+                                                @detail.Movie.Name
+                                            }
+                                            else if (detail.ProductType == "Game")
+                                            {
+                                                @detail.Game.Name
+                                            }
+                                        </td>
+                                        <td class="center-text">
+                                            @if (detail.ProductType == "Album")
+                                            {
+                                                <img src="~/@detail.Album.ImageUrl" alt="Product Image" class="product-image" />
+                                            }
+                                            else if (detail.ProductType == "Movie")
+                                            {
+                                                <img src="~/@detail.Movie.ImageUrl" alt="Product Image" class="product-image" />
+                                            }
+                                            else if (detail.ProductType == "Game")
+                                            {
+                                                <img src="~/@detail.Game.ImageUrl" alt="Product Image" class="product-image" />
+                                            }
+                                        </td>
+                                        <td>
+                                            @if (detail.ProductType == "Album")
+                                            {
+                                                @if (detail.Album.Price > detail.CurrentPrice)
+                                                {
+                                                    @detail.Album.Price
+                                                }
+                                                else
+                                                {
+                                                    @detail.Album.Price
+                                                }
+                                            }
+                                            else if (detail.ProductType == "Movie")
+                                            {
+                                                @if (detail.Movie.Price > detail.CurrentPrice)
+                                                {
+                                                    @detail.Movie.Price
+                                                }
+                                                else
+                                                {
+                                                    @detail.Movie.Price
+                                                }
+                                            }
+                                            else if (detail.ProductType == "Game")
+                                            {
+                                                @if (detail.Game.Price > detail.CurrentPrice)
+                                                {
+                                                    @detail.Game.Price
+                                                }
+                                                else
+                                                {
+                                                    @detail.Game.Price
+                                                }
+                                            }
+                                        </td>
+                                        <td>
+                                            @if (detail.ProductType == "Album" && detail.Album.Price > detail.CurrentPrice)
+                                            {
+                                                @detail.CurrentPrice
+                                            }
+                                            else if (detail.ProductType == "Movie" && detail.Movie.Price > detail.CurrentPrice)
+                                            {
+                                                @detail.CurrentPrice
+                                            }
+                                            else if (detail.ProductType == "Game" && detail.Game.Price > detail.CurrentPrice)
+                                            {
+                                                @detail.CurrentPrice
+                                            }
+
+                                        </td>
+                                        <td>@detail.Count</td>
+                                        <td>@detail.TotalPrice</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                        @if (Model.Any())
+                        {
+                            var firstDetail = Model.First();
+                            <dl class="row mb-5" style="font-size: 0.8em">
+                                <dt class="col-sm-4">Total Quantity</dt>
+                                <dd class="col-sm-8">@firstDetail.OrderItem.CountTotal</dd>
+
+                                <dt class="col-sm-4">Total Invoice</dt>
+                                <dd class="col-sm-8">@firstDetail.OrderItem.OrderTotal</dd>
+
+                                @if (firstDetail.OrderItem.CancelRequest != null)
+                                {
+                                    <dt class="col-sm-4 mt-5 text-danger">Cancel reason</dt>
+                                    <dd class="col-sm-8 mt-5">@firstDetail.OrderItem.CancelRequest</dd>
+                                }
+                                
+                            </dl>
+                        }
+                        <div class="row pt-2">
+                            <div class="col-2 col-md-2 ps-0 d-flex align-items-center">
+                                <a asp-area="Customer" asp-controller="Order" asp-action="Index" class="btn btn-lg mx-0" style="font-size: 0.8em; background-color: blue; color: white">Back To List</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

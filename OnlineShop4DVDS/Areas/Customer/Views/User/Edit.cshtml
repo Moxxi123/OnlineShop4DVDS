@@ -1,0 +1,152 @@
+﻿@using Ultility
+@model ApplicationUser
+@{
+    string userId = Model.Id;
+}
+
+<div>
+    <div class="row">
+        <!-- Header -->
+        <div class="col-md-12">
+            <div class="card-header ml-0 py-4" style="background-color: #1d1d1d;">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="text-white py-2">Edit User</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <partial name="_Sidebar" model="userId" />
+
+        <!-- Main Content -->
+        <div class="col-md-10" style="font-size: 1.2em">
+            <div class="card shadow border-0 my-4">
+                <div class="card-body p-4">
+                    <!-- Overview Section -->
+                    <div class="mb-3">
+                        <h2>Overview</h2>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-md-3 mb-5">
+                                    <label class="form-label">Name</label>
+                                    <h5>@Model.Name</h5>
+                                </div>
+                                <div class="col-md-3 mb-5">
+                                    <label class="form-label">Email</label>
+                                    <h5>@Model.Email</h5>
+                                </div>
+                                @if (!User.IsInRole(StaticDetail.Role_Customer))
+                                {
+                                    <div class="col-md-3 mb-5">
+                                        <label class="form-label">Role</label>
+                                        <h5>@Model.Role</h5>
+                                    </div>
+                                }
+                                <div class="col-md-3 mb-5">
+                                    <label class="form-label">Phone Number</label>
+                                    <h5>@Model.PhoneNumber</h5>
+                                </div>
+                                <div class="col-md-3 mb-5">
+                                    <label class="form-label">Street Address</label>
+                                    <h5>@Model.StreetAddress</h5>
+                                </div>
+                                <div class="col-md-3 mb-5">
+                                    <label class="form-label">City</label>
+                                    <h5>@Model.City</h5>
+                                </div>
+                                <div class="col-md-3 mb-5">
+                                    <label class="form-label">State</label>
+                                    <h5>@Model.State</h5>
+                                </div>
+                                <div class="col-md-3 mb-4">
+                                    <label class="form-label">Postal Code</label>
+                                    <h5>@Model.PostalCode</h5>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <!-- Form Section -->
+                    <div style="font-size: 1.2em">
+                        <div class="mb-3">
+                            <h2>Edit User</h2>
+                        </div>
+                        <form class="row ps-3" asp-area="Customer" asp-controller="User" asp-action="Edit" asp-route-userId="@Model.Id" method="post">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+                            <input asp-for="@Model.Id" hidden />
+                            @if (!User.IsInRole(StaticDetail.Role_Admin))
+                            {
+                                <input asp-for="@Model.RoleId" hidden />
+                            }
+                            <div class="form-control mb-3" style="font-size: 0.8em">
+                                <label asp-for="Name" style="color: #97979a">Name</label>
+                                <input type="text" class="form-control ps-0" asp-for="Name" placeholder="Enter your full name" style="font-size: 0.9em; background-color: transparent; border: none; outline: none; box-shadow: none; focus-visible:ring-transparent;" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-control mb-3" style="font-size: 0.8em">
+                                <label asp-for="PhoneNumber" style="color: #97979a">PhoneNumber</label>
+                                <input type="text" class="form-control ps-0" asp-for="PhoneNumber" placeholder="Enter phone number" style="font-size: 0.9em; background-color: transparent; border: none; outline: none; box-shadow: none; focus-visible:ring-transparent;" />
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                            </div>
+                            <div class="form-control mb-3" style="font-size: 0.8em">
+                                <label asp-for="StreetAddress" style="color: #97979a">Street Address</label>
+                                <input type="text" class="form-control ps-0" asp-for="StreetAddress" placeholder="Enter address" style="font-size: 0.9em; background-color: transparent; border: none; outline: none; box-shadow: none; focus-visible:ring-transparent;" />
+                            </div>
+
+                            <div class="form-control mb-3" style="font-size: 0.8em">
+                                <label asp-for="City" style="color: #97979a">City</label>
+                                <input type="text" class="form-control ps-0" asp-for="City" placeholder="Enter city" style="font-size: 0.9em; background-color: transparent; border: none; outline: none; box-shadow: none; focus-visible:ring-transparent;" />
+                            </div>
+
+                            <div class="form-control mb-3" style="font-size: 0.8em">
+                                <label asp-for="State" style="color: #97979a">State</label>
+                                <input type="text" class="form-control ps-0" asp-for="State" placeholder="Enter state" style="font-size: 0.9em; background-color: transparent; border: none; outline: none; box-shadow: none; focus-visible:ring-transparent;" />
+                            </div>
+
+                            <div class="form-control mb-3" style="font-size: 0.8em">
+                                <label asp-for="PostalCode" style="color: #97979a">Postal Code</label>
+                                <input type="text" class="form-control ps-0" asp-for="PostalCode" placeholder="Enter postal code" style="font-size: 0.9em; background-color: transparent; border: none; outline: none; box-shadow: none; focus-visible:ring-transparent;" />
+                            </div>
+
+                            @if (User.IsInRole(StaticDetail.Role_Admin))
+                            {
+                                <div class="form-control mb-3" style="font-size: 0.8em">
+                                    <label asp-for="RoleId" style="color: #97979a">Role</label>
+                                    <select class="form-select ps-0" asp-for="RoleId" asp-items="@ViewBag.RoleList" style="font-size: 0.9em; background-color: transparent; border: none; outline: none; box-shadow: none;">
+                                        <option disabled selected>Select Role Type</option>
+                                    </select>
+                                    <span asp-validation-for="RoleId" class="text-danger"></span>
+                                </div>
+                            }
+
+                            <div class="row pt-2">
+                                <div class="col-1 col-md-1 ps-0 me-3">
+                                    <button type="submit" class="btn btn-lg" style="font-size: 0.8em; background-color: #f72457; color: white">Update</button>
+                                </div>
+                                <div class="col-2 col-md-2 ps-0 d-flex align-items-center">
+                                    @if (!User.IsInRole(StaticDetail.Role_Customer))
+                                    {
+                                        <a asp-area="Admin" asp-controller="User" asp-action="Index" class="btn btn-lg mx-0" style="font-size: 0.8em; background-color: blue; color: white">Back To List</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-area="Customer" asp-controller="Home" asp-action="Index" class="btn btn-lg mx-0" style="font-size: 0.8em; background-color: blue; color: white">Back To Home</a>
+                                    }
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

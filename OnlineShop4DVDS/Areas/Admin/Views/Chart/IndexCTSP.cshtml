@@ -1,0 +1,163 @@
+﻿@model IEnumerable<dynamic>
+<style>
+    .center-text {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .product-image {
+        width: 100px; /* Hoặc kích thước bạn muốn */
+        height: 100px; /* Hoặc kích thước bạn muốn */
+        object-fit: cover; /* Đảm bảo ảnh không bị méo */
+    }
+
+    .form-container {
+        margin-bottom: 20px; /* Khoảng cách dưới form */
+    }
+
+    .chart-container, .table-container {
+        max-width: 100%; /* Đảm bảo các phần tử không vượt quá chiều rộng của cột */
+    }
+
+    .card-body {
+        padding: 1.25rem; /* Điều chỉnh padding cho card-body nếu cần */
+    }
+
+    .form-group {
+        margin-bottom: 0; /* Loại bỏ khoảng cách dưới form-group để chúng nằm cùng một hàng */
+    }
+</style>
+<div class="container">
+    <div class="form-container">
+        <form id="dateFilterForm" method="get">
+            <div class="row">
+                <div class="col-md-3 form-group">
+                    <label for="day1">Start Date:</label>
+                    <input type="date" class="form-control" id="day1" name="day1" />
+                </div>
+                <div class="col-md-3 form-group">
+                    <label for="day2">End Date:</label>
+                    <input type="date" class="form-control" id="day2" name="day2" />
+                </div>
+            </div>
+            <div class="col-md-3 form-group">
+                <button type="submit" class="btn btn-primary" id="filterButton">Filter</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="row">
+        <!-- Biểu đồ nằm trong một cột -->
+        <div class="col-lg-6 mb-4 chart-container">
+            <canvas id="ChartOrderTSP" height="300"></canvas>
+        </div>
+        <!-- Bảng nằm trong một cột khác -->
+        <div class="col-lg-6 mb-4 table-container">
+            <div class="card shadow border-0 h-100">
+                <div class="card-body p-4">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="center-text">Name</th>
+                                <th class="center-text">Image</th>
+                                <th class="center-text">Count</th>
+                                <th class="center-text">Price</th>
+                                <th class="center-text">Total Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="center-text">@item.Name</td>
+                                    <td class="center-text">
+                                        <img src="~/@item.Image" alt="Product Image" class="product-image" />
+                                    </td>
+                                    <td class="center-text">@item.TotalCount</td>
+                                    <td class="center-text">@item.SellingPrice.ToString("C")</td>
+                                    <td class="center-text">@item.TotalPrice.ToString("C")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+
+        function fetchChartData(url) {
+            fetch(url)
+                .then(res => res.json())
+                .then(data => {
+                    // Generate random colors for the chart
+                    const randomColors = [];
+                    for (let i = 0; i < data.labels.length; i++) {
+                        const r = Math.floor(Math.random() * 255);
+                        const g = Math.floor(Math.random() * 255);
+                        const b = Math.floor(Math.random() * 255);
+                        const a = Math.random().toFixed(2);
+                        randomColors.push(`rgba(${r},${g},${b},${a})`);
+                    }
+                    // Lấy giá trị nhỏ nhất và lớn nhất từ data.quantities
+                    var minQuantity = Math.min(...data.quantities);
+                    var maxQuantity = Math.max(...data.quantities);
+                    // Điều chỉnh minQuantity và maxQuantity để thấp hơn và lớn hơn data.quantities 1 đơn vị
+                    minQuantity -= 1;
+                    maxQuantity += 1;
+
+                    // Create the doughnut chart
+                    var ctx = document.getElementById("ChartOrderTSP").getContext("2d");
+
+                    //Hủy bỏ biểu đồ cũ nếu có
+                    if (window.myChartOrderTSP) {
+                        window.myChartOrderTSP.destroy();
+                    }
+                    window.myChartOrderTSP = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: data.labels,
+                            datasets: [{
+                                label: "sold products",
+                                data: data.quantities,
+                                backgroundColor: randomColors,
+                                borderColor: 'rgb(255, 99, 132)',
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            animation: false, // Hủy bỏ hiệu ứng thu nhỏ dần
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                })
+                .catch(error => console.error('Error fetching chart data:', error))
+        }
+        document.getElementById('dateFilterForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Ngăn chặn form gửi thông thường
+
+            const day1 = document.getElementById('day1').value;
+            const day2 = document.getElementById('day2').value;
+
+            let url = `ChartOrderDTSP?day1=${day1}&day2=${day2}`;
+            fetchChartData(url);
+
+            // Thiết lập lại giá trị các trường nhập ngày về rỗng
+            document.getElementById('day1').value = '';
+            document.getElementById('day2').value = '';
+        });
+        // Tải dữ liệu biểu đồ mặc định khi trang được tải lần đầu tiên
+        fetchChartData('ChartOrderDTSP');
+        console.log(url);
+
+    </script>
+}

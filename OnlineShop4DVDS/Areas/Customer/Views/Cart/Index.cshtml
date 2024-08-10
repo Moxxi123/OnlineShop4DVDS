@@ -1,0 +1,335 @@
+﻿@using DataAccess.Repository.IRepository
+@using Microsoft.AspNetCore.Identity
+@using Models.ViewModels
+@model CartItemViewModel
+@using Ultility
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject IUnitOfWork _unitOfWork
+
+@{
+    var recommendProductSlider = await _unitOfWork.RecommendProductSliderRepository.GetAll(r => r.Status == false, includeProperties: "Promotion,ContentType");
+}
+
+<div class="listing-banner-part d-inline-block w-100">
+    <div class="container">
+        <h2 class="text-white"> Cart </h2>
+    </div>
+</div>
+
+<div class="cart-page-div pt-5 d-inline-block w-100 mt-5">
+    @if (Model.CartItems.Count() > 0)
+    {
+        <div class="row gx-lg-5">
+            <div class="col-lg-8">
+                <div class="cart-haedeing">
+                    <h2 class="d-flex align-items-center justify-content-between mb-4">
+                        My Cart
+                    </h2>
+                    @foreach (var item in Model.CartItems)
+                    {
+
+                        <div class="comon-items-cart">
+                            <div class="left-section-div">
+                                <figure>
+                                    @switch (item.ProductType)
+                                    {
+                                        case StaticDetail.ProductType_Album:
+                                            <img src="~/@item.Album.ImageUrl" alt="pn" />
+                                            break;
+                                        case StaticDetail.ProductType_Movie:
+                                            <img src="~/@item.Movie.ImageUrl" alt="pn" />
+                                            break;
+                                        case StaticDetail.ProductType_Game:
+                                            <img src="~/@item.Game.ImageUrl" alt="pn" />
+                                            break;
+                                    }
+                                </figure>
+                                <div class="products-cart1">
+                                    <ul>
+                                        <li>
+                                            @switch (item.ProductType)
+                                            {
+                                                case StaticDetail.ProductType_Album:
+                                                    <p>@item.Album.Name</p>
+                                                    break;
+                                                case StaticDetail.ProductType_Movie:
+                                                    <p>@item.Movie.Name</p>
+                                                    break;
+                                                case StaticDetail.ProductType_Game:
+                                                    <p>@item.Game.Name</p>
+                                                    break;
+                                            }
+                                        </li>
+                                    </ul>
+
+                                    <a class="btn remove-btn p-0 mt-2" asp-controller="Cart" asp-action="Remove" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType">
+                                        <span> <i class="fas fa-trash"></i> </span> Remove
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="crat-linl-pay">
+                                <h4>
+                                    @switch (item.ProductType)
+                                    {
+                                        case StaticDetail.ProductType_Album:
+                                            if (@item.Album.PromotionPrice != null)
+                                            {
+                                                <span>$@item.Album.Price</span>
+                                                <span style="text-decoration:none; color: #f7a007; font-weight: 600;">$@item.Album.PromotionPrice</span>
+                                            }
+                                            else
+                                            {
+                                                <span style="text-decoration:none; color: #f7a007; font-weight: 600;">$@item.Album.Price</span>
+                                            }
+                                            break;
+                                        case StaticDetail.ProductType_Movie:
+                                            if (@item.Movie.PromotionPrice != null)
+                                            {
+                                                <span>$@item.Movie.Price</span>
+                                                <span style="text-decoration:none; color: #f7a007; font-weight: 600;">$@item.Movie.PromotionPrice</span>
+                                            }
+                                            else
+                                            {
+                                                <span style="text-decoration:none; color: #f7a007; font-weight: 600;">$@item.Movie.Price</span>
+                                            }
+                                            break;
+                                        case StaticDetail.ProductType_Game:
+                                            if (@item.Game.PromotionPrice != null)
+                                            {
+                                                <span>$@item.Game.Price</span>
+                                                <span style="text-decoration:none; color: #f7a007; font-weight: 600;">$@item.Game.PromotionPrice</span>
+                                            }
+                                            else
+                                            {
+                                                <span style="text-decoration:none; color: #f7a007; font-weight: 600;">$@item.Game.Price</span>
+                                            }
+                                            break;
+                                    }
+                                </h4>
+
+                                <div class="quantity-field">
+                                    <div class="quantity-control">
+
+                                        <a class="quantity-btn" asp-controller="Cart" asp-action="Minus" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType">
+                                            <svg viewBox="0 0 409.6 409.6" width="20" height="20">
+                                                <g>
+                                                    <g>
+                                                        <path d="M392.533,187.733H17.067C7.641,187.733,0,195.374,0,204.8s7.641,17.067,17.067,17.067h375.467 c9.426,0,17.067-7.641,17.067-17.067S401.959,187.733,392.533,187.733z" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </a>
+
+                                        <span class="quantity-input">
+                                            @item.Count
+                                        </span>
+
+                                        <a class="quantity-btn" asp-controller="Cart" asp-action="Plus" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType">
+                                            <svg viewBox="0 0 426.66667 426.66667" width="20" height="20">
+                                                <path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0" />
+                                            </svg>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="total-count-div">
+                    <h4> Order Summary</h4>
+                    <hr class="my-2" />
+                    <div class="itemsl-list my-4">
+                        <ul>
+                            <li class="d-flex align-items-center justify-content-between">
+
+                                <div class="itemsl-list my-3 w-100">
+                                    @foreach (var item in Model.CartItems)
+                                    {
+                                        <ul>
+                                            <li class="d-flex align-items-center justify-content-between mb-5">
+                                                <span class="me-5">
+                                                    @switch (item.ProductType)
+                                                    {
+                                                        case StaticDetail.ProductType_Album:
+                                                            <p>@item.Album.Name (@item.Count)</p>
+                                                            break;
+                                                        case StaticDetail.ProductType_Movie:
+                                                            <p>@item.Movie.Name (@item.Count)</p>
+                                                            break;
+                                                        case StaticDetail.ProductType_Game:
+                                                            <p>@item.Game.Name (@item.Count)</p>
+                                                            break;
+                                                    }
+                                                </span>
+                                                <span>
+                                                    $@item.Total
+                                                </span>
+                                            </li>
+
+                                        </ul>
+                                    }
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <hr />
+                    <h3><span>Total Cost</span> <span>$@Model.OrderItem.OrderTotal</span> </h3>
+                    @if(SignInManager.IsSignedIn(User)){
+                        <a class="btn btncheck-btn mt-4" asp-area="Customer" asp-controller="Cart" asp-action="Payment">Checkout</a>
+                    }
+                    else
+                    {
+                        <a class="btn btncheck-btn mt-4" data-bs-toggle="modal" data-bs-target="#loginModal">Checkout</a>
+                    }
+                    
+                </div>
+            </div>
+        </div>
+
+        @if (recommendProductSlider.Count() > 0)
+        {
+            <div class="recommended-products d-inline-block w-100 py-5 my-5">
+                <h2 class="mb-5" style="font-weight: bold">You may also like</h2>
+                <div class="shop-slider owl-carousel owl-theme mt-3">
+                    @foreach (var item in recommendProductSlider)
+                    {
+                        switch (item.ProductType)
+                        {
+                            case StaticDetail.ProductType_Album:
+                                <!-- Product card -->
+                                <div class="col" id="list-item">
+                                    <div class="product-grid">
+                                        <div class="product-image">
+                                            <a asp-area="Customer" asp-controller="Album" asp-action="Detail" asp-route-id="@item.ProductId" class="image" class="image">
+                                                <img src="/@item.ImageUrl" alt="Product Image">
+                                            </a>
+                                            @if (item.Promotion != null && item.Promotion.DiscountPercent > 0)
+                                            {
+                                                <span class="product-discount-label">@item.Promotion.DiscountPercent%</span>
+                                            }
+                                            <span class="content-type">@item.ContentType.Type</span>
+                                            @if (@item.ContentType.Type == StaticDetail.ContentType_Free)
+                                            {
+                                                <a asp-area="Customer" asp-controller="Album" asp-action="Detail" asp-route-id="@item.ProductId" class="add-to-cart">Detail</a>
+                                            }
+                                            else
+                                            {
+                                                <a asp-area="Customer" asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType" class="add-to-cart">Add to Cart</a>
+                                            }
+                                        </div>
+                                        <div class="product-content">
+                                            <h3 class="title"><a asp-area="Customer" asp-route-id="@item.ProductId" asp-controller="Album" asp-action="Detail">@item.Name</a></h3>
+                                            @if (item.PromotionPrice != null && item.PromotionPrice > 0)
+                                            {
+                                                <div class="price">$@item.PromotionPrice <span>@item.Price</span></div>
+                                            }
+                                            else
+                                            {
+                                                <div class="price">$@item.Price</div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                                break;
+
+                            case StaticDetail.ProductType_Movie:
+                                <!-- Product card -->
+                                <div class="col" id="list-item">
+                                    <div class="product-grid">
+                                        <div class="product-image">
+                                            <a asp-area="Customer" asp-controller="Movie" asp-action="Detail" asp-route-id="@item.ProductId" class="image" class="image">
+                                                <img src="/@item.ImageUrl" alt="Product Image">
+                                            </a>
+                                            @if (item.Promotion != null && item.Promotion.DiscountPercent > 0)
+                                            {
+                                                <span class="product-discount-label">@item.Promotion.DiscountPercent%</span>
+                                            }
+                                            <span class="content-type">@item.ContentType.Type</span>
+                                            @if (@item.ContentType.Type == StaticDetail.ContentType_Free)
+                                            {
+                                                <a asp-area="Customer" asp-controller="Movie" asp-action="Detail" asp-route-id="@item.ProductId" class="add-to-cart">Detail</a>
+                                            }
+                                            else
+                                            {
+                                                <a asp-area="Customer" asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType" class="add-to-cart">Add to Cart</a>
+                                            }
+
+                                        </div>
+                                        <div class="product-content">
+                                            <h3 class="title"><a asp-area="Customer" asp-route-id="@item.ProductId" asp-controller="Movie" asp-action="Detail">@item.Name</a></h3>
+                                            @if (item.PromotionPrice != null && item.PromotionPrice > 0)
+                                            {
+                                                <div class="price">$@item.PromotionPrice <span>@item.Price</span></div>
+                                            }
+                                            else
+                                            {
+                                                <div class="price">$@item.Price</div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                                break;
+
+                            case StaticDetail.ProductType_Game:
+                                <!-- Product card -->
+                                <div class="item">
+                                    <div class="product-grid">
+                                        <div class="product-image">
+                                            <a asp-area="Customer" asp-controller="Game" asp-action="Detail" asp-route-id="@item.ProductId" class="image">
+                                                <img src="/@item.ImageUrl" alt="Product Image">
+                                            </a>
+                                            @if (item.Promotion != null && item.Promotion.DiscountPercent > 0)
+                                            {
+                                                <span class="product-discount-label">@item.Promotion.DiscountPercent%</span>
+                                            }
+                                            <span class="content-type">@item.ContentType.Type</span>
+                                            @if (@item.ContentType.Type == StaticDetail.ContentType_Free)
+                                            {
+                                                <a asp-area="Customer" asp-controller="Game" asp-action="Detail" asp-route-id="@item.ProductId" class="add-to-cart">Detail</a>
+                                            }
+                                            else
+                                            {
+                                                <a asp-area="Customer" asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType" class="add-to-cart">Add to Cart</a>
+                                            }
+                                        </div>
+                                        <div class="product-content">
+                                            <h3 class="title"><a asp-area="Customer" asp-route-id="@item.ProductId" asp-controller="Game" asp-action="Detail">@item.Name</a></h3>
+                                            @if (item.PromotionPrice != null && item.PromotionPrice > 0)
+                                            {
+                                                <div class="price">$@item.PromotionPrice <span class="original-price">$@item.Price</span></div>
+                                            }
+                                            else
+                                            {
+                                                <div class="price">$@item.Price</div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                                break;
+                        }
+
+                    }
+                </div>
+            </div>
+        }
+
+    }
+    else
+    {
+        <div class="row gx-lg-5 text-center">
+            <h2 class="mt-0" style="font-weight: bold">YOUR CART IS EMPTY</h2>
+            <div class="my-5">
+                <img src="~/images/empty.svg" alt="pn" style="width: 25%; height: auto" />
+            </div>
+        </div>
+    }
+</div>
+
+
+

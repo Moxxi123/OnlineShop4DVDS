@@ -1,0 +1,53 @@
+﻿@using Ultility
+@model string
+@inject UserManager<IdentityUser> UserManager
+@{
+    // Get the current page path
+    string currentPath = Context.Request.Path.ToString();
+    var userId = UserManager.GetUserId(User);
+}
+
+<style>
+    .nav-pills li {
+        opacity: 0.5;
+        transition: opacity 0.3s ease;
+    }
+
+        .nav-pills li:hover {
+            opacity: 1;
+        }
+
+    .nav-pills .active {
+        opacity: 1;
+        border-left: 3px solid #0d6efd;
+    }
+</style>
+
+@* <script>
+    console.log('@currentPath');
+</script> *@
+
+<div class="col-md-2">
+    <div class="card shadow border-0 my-4">
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="@(currentPath == "/admin/user/edit" ? "active" : "")">
+                <a href="/admin/user/edit?userId=@Model" class="nav-link link-dark">
+                    Account
+                </a>
+            </li>
+            @*  <li class="@(currentPath == "/admin/user/changeemailaddress" ? "active" : "")">
+            <a href="/admin/user/changeemailaddress?userId=@Model" class="nav-link link-dark">
+            Change Email
+            </a>
+            </li> *@
+            @if (userId == Model)
+            {
+                <li class="@(currentPath == "/admin/user/changepassword" ? "active" : "")">
+                    <a href="/admin/user/changepassword?userId=@Model" class="nav-link link-dark">
+                        Change Password
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

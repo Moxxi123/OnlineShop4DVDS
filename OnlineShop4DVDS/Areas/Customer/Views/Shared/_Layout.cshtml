@@ -1,0 +1,359 @@
+﻿@using DataAccess.Repository.IRepository
+@inject IUnitOfWork _unitOfWork;
+@{
+    var albumCategoryList = await _unitOfWork.AlbumCategoryRepository.GetAll(c => c.Status == false);
+    var gameCategoryList = await _unitOfWork.GameCategoryRepository.GetAll(m => m.Status == false);
+    var movieCategoryList = await _unitOfWork.MovieCategoryRepository.GetAll(m => m.Status == false);
+    var currentSearch = ViewData["CurrentSearch"] as string ?? "";
+    var currentProductType = ViewData["CurrentProductType"] as string ?? "All categories";
+}
+
+<!doctype html>
+<html lang="en">
+<!-- Mirrored from oxentictemplates.in/templatemonster/e-card/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jul 2024 07:01:53 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="marhansolutions.com" />
+    <title>OnlineShop4DVDS</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="~/Asset/Customer/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,500&amp;family=Source+Sans+3:wght@200;300;400;500;600;700&amp;family=Work+Sans:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+
+    <link href="~/Asset/Customer/css/all.min.css" rel="stylesheet">
+    <link href="~/Asset/Customer/css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/Asset/Customer/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/Asset/Customer/css/owl.theme.default.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.3/themes/base/jquery-ui.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"/>
+
+    <style>
+        #layoutSidenav_content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-width: 0;
+            flex-grow: 1;
+            min-height: calc(100vh - 148px);
+            margin-left: -1px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="float-start w-100">
+        <div class="container">
+            <div class="row">
+                <div class="top-main-haade py-4">
+                    <div class="logo-main-div me-5">
+                        <!-- logo -->
+                        <a asp-area="Customer" asp-controller="Home" asp-action="Index" class="logo">
+                            <img src="~/images/logo.png" alt="logo" style="width: 75%; height:auto"/>
+                        </a>
+                    </div>
+                    <div class="search-div-main d-flex align-items-center w-100 ms-5">
+                        <div class="seach-div">
+                            <form class="form-group d-flex align-items-center" asp-area="Customer" asp-controller="Home" asp-action="MainSearch">
+                                <input type="text" name="search" class="form-control" placeholder="Search Your Products.." value="@currentSearch"/>
+                                <div class="me-3">
+                                    <select name="productType" aria-required="true" style="background-color: transparent; border: none; outline: none; box-shadow: none; focus-visible:ring-transparent">
+                                        @if (currentProductType == "All categories")
+                                        {
+                                            <option value="All categories" selected>All categories</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="All categories">All categories</option>
+                                        }
+
+                                        @if (currentProductType == "Album")
+                                        {
+                                            <option value="Album" selected>Album</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="Album">Album</option>
+                                        }
+
+                                        @if (currentProductType == "Movie")
+                                        {
+                                            <option value="Movie" selected>Movie</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="Movie">Movie</option>
+                                        }
+
+                                        @if (currentProductType == "Game")
+                                        {
+                                            <option value="Game" selected>Game</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="Game">Game</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn serch-btn">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="right-cart-section">
+                        <ul class="d-flex align-items-center justify-content-end lgoin-sectoon-top">
+                            <!-- login -->
+                            <partial name="_LoginPartial" />
+
+                            <!-- cart -->
+                            <li class="dropdown position-relative mx-3">
+                                <a class="btn com-link cart-new-icon whilist ml-3" type="button" asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    @await Component.InvokeAsync("ShoppingCart")
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- menu -->
+        <div class="menu-bar">
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <!-- home -->
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" role="button" aria-expanded="false" asp-area="Customer" asp-controller="Home" asp-action="Index">
+                                            HOME
+                                        </a>
+
+                                    <!-- album -->
+                                    <li class="nav-item dropdown position-relative">
+                                        <a class="nav-link dropdown-toggle" asp-area="Customer" asp-controller="Album" asp-action="Index" role="button">
+                                            Album
+                                        </a>
+                                        <ul class="dropdown-menu normaldrop">
+                                                @foreach (var item in albumCategoryList)
+                                                {
+                                                <li><a class="dropdown-item" asp-area="Customer" asp-controller="Album" asp-action="Index" asp-route-categoryId="@item.Id">@item.Name</a></li>
+                                                }
+                                        </ul>
+                                    </li>
+
+                                    <!-- movie -->
+                                    <li class="nav-item dropdown position-relative">
+                                        <a class="nav-link dropdown-toggle" asp-area="Customer" asp-controller="Movie" asp-action="Index" role="button">
+                                            Movie
+                                        </a>
+                                        <ul class="dropdown-menu normaldrop">
+                                                @foreach (var item in movieCategoryList)
+                                                {
+                                                <li><a class="dropdown-item" asp-area="Customer" asp-controller="Movie" asp-action="Index" asp-route-categoryId="@item.Id">@item.Name</a></li>
+                                                }
+                                        </ul>
+                                    </li>
+
+                                    <!-- game -->
+                                    <li class="nav-item dropdown position-relative">
+                                        <a class="nav-link dropdown-toggle" asp-area="Customer" asp-controller="Game" asp-action="Index" role="button">
+                                            Game
+                                        </a>
+                                        <ul class="dropdown-menu normaldrop">
+                                                @foreach (var item in gameCategoryList)
+                                                {
+                                                <li><a class="dropdown-item" asp-area="Customer" asp-controller="Game" asp-action="Index" asp-route-categoryId="@item.Id">@item.Name</a></li>
+                                                }
+                                        </ul>
+                                    </li>
+
+                                    <!-- news -->
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="Customer" asp-controller="News" asp-action="Index" role="button">
+                                            News
+                                        </a>
+                                    </li>
+
+                                    <!-- about -->
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="Customer" asp-controller="About" asp-action="Index"> About </a>
+                                    </li>
+                                    
+                                    <!-- contact -->
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="Customer" asp-controller="Contact" asp-action="Index"> Support </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="layoutSidenav_content">
+        <!-- BODY -->
+        <main class="float-start w-100 main-body">
+            <section class="d-inline-block w-100">
+                <div class="container">
+                    <partial name="_ToastrNotification" /> @* thông báo dùng chung cho mọi trang *@
+                    <partial name="_SwalNotification" />
+                    @RenderBody()
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="main-footer01 d-inline-block w-100 pt-5">
+                <div class="container">
+                    <div class="row row-cols-2 row-cols-lg-4">
+                        <div class="col d-grid justify-content-lg-center">
+                            <div class="comon-footer-mns d-inline-block w-100">
+                                <h5> Company </h5>
+
+                                <ul class="main-links mt-5">
+                                    <li class="d-flex align-items-center">
+                                        <a asp-area="Customer" asp-controller="About" asp-action="Index">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                                </svg>
+                                            </span>
+                                            About
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col  d-grid justify-content-lg-center">
+                            <div class="comon-footer-mns d-inline-block w-100">
+                                <h5> Consumer Policy </h5>
+
+                                <ul class="main-links mt-5">
+                                    <li class="d-flex align-items-center">
+                                        <a href="#">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                                </svg>
+                                            </span>
+                                            Return & Refund Policy
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col d-grid justify-content-lg-end">
+                            <div class="comon-footer-mns d-inline-block w-100">
+                                <h5> Help </h5>
+                                <ul class="main-links mt-5">
+                                    <li class="d-flex align-items-center">
+                                        <a asp-area="Customer" asp-controller="Contact" asp-action="Index">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                                </svg>
+                                            </span>
+                                            Send Us a Message
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                                </svg>
+                                            </span>
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-footer d-inline-block mt-5 w-100">
+                    <div class="container">
+                        <div class="d-md-flex coply align-items-center justify-content-between">
+                            <p> © 2024 - dotnet all rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal fade login-div-modal" id="loginModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                </div>
+                <div class="modal-body">
+                    @await Html.PartialAsync("_LoginPartialForm", new Models.ViewModels.LoginViewModel())
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade login-div-modal" id="lostpsModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    @await Html.PartialAsync("_ForgotPasswordForm", new Models.ViewModels.ForgotPasswordViewModel())
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- script -->
+    <script src="~/Asset/Customer/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Asset/Customer/js/jquery.min.js"></script>
+    <script src="~/Asset/Customer/js/custom.js"></script>
+    <script src="~/Asset/Customer/js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.tiny.cloud/1/a8xim7vbdz33esnljukqd3agdkbr98x5hncbb8mw0n2qkeey/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.6/jquery.simplePagination.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#loginModal').on('shown.bs.modal', function () {
+                $('#lostpsModal').modal('hide');
+            });
+
+            $('#lostpsModal').on('shown.bs.modal', function () {
+                $('#loginModal').modal('hide');
+            });
+        });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+
+<!-- Mirrored from oxentictemplates.in/templatemonster/e-card/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jul 2024 07:01:53 GMT -->
+</html>

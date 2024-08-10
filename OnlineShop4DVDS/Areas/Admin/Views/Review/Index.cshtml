@@ -1,0 +1,207 @@
+﻿@model IEnumerable<Review>
+
+<div class="container">
+    <div class="button-group my-4">
+        <button class="btn btn-primary" onclick="showTable('all')">Display All Reviews</button>
+        <button class="btn btn-primary" onclick="showTable('album')">Review Album</button>
+        <button class="btn btn-primary" onclick="showTable('game')">Review Game</button>
+        <button class="btn btn-primary" onclick="showTable('movie')">Review Movie</button>
+        <button class="btn btn-danger" onclick="deleteSelected()">Delete Selected</button>
+    </div>
+
+    <div id="allReviewsTable" class="card shadow border-0 my-4">
+        <div class="card-body p-4">
+            <h3>Display All Reviews</h3>
+            <table class="table table-bordered table-striped" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Select</th>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Product Name</th>
+                        <th>Product Type</th>
+                        <th>Star Rate</th>
+                        <th>Content</th>
+                        <th>Create Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var review in Model)
+                    {
+                        <tr>
+                            <td><input type="checkbox" name="selectedReviews" value="@review.Id" /></td>
+                            <td>@review.Id</td>
+                            <td>@review.Name</td>
+                            <td>@review.ProductName</td>
+                            <td>@review.ProductType</td>
+                            <td>@review.StarRate</td>
+                            <td>@review.Content</td>
+                            <td>@review.CreateDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="albumTable" class="card shadow border-0 my-4" style="display:none;">
+        <div class="card-body p-4">
+            <h3>Album Reviews</h3>
+            <table id="tableData" class="table table-bordered table-striped" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Select</th>
+                        <th>ProductId</th>
+                        <th>Product</th>
+                        <th>User Name</th>
+                        <th>Star Rate</th>
+                        <th>Comment</th>
+                        <th>Create Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Where(m => m.ProductType == "Album"))
+                    {
+                        <tr>
+                            <td><input type="checkbox" name="selectedReviews" value="@item.AlbumId" /></td>
+                            <td>@item.AlbumId</td>
+                            <td>@item.ProductName</td>
+                            <td>@item.Name</td>
+                            <td>@item.StarRate</td>
+                            <td>@item.Content</td>
+                            <td>@item.CreateDate.ToString("dd/MM/yyyy")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="gameTable" class="card shadow border-0 my-4" style="display:none;">
+        <div class="card-body p-4">
+            <h3>Game Reviews</h3>
+            <table id="tableData" class="table table-bordered table-striped" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Select</th>
+                        <th>ProductId</th>
+                        <th>Product</th>
+                        <th>User Name</th>
+                        <th>Star Rate</th>
+                        <th>Comment</th>
+                        <th>Create Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Where(m => m.ProductType == "Game"))
+                    {
+                        <tr>
+                            <td><input type="checkbox" name="selectedReviews" value="@item.GameId" /></td>
+                            <td>@item.GameId</td>
+                            <td>@item.ProductName</td>
+                            <td>@item.Name</td>
+                            <td>@item.StarRate</td>
+                            <td>@item.Content</td>
+                            <td>@item.CreateDate.ToString("dd/MM/yyyy")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="movieTable" class="card shadow border-0 my-4" style="display:none;">
+        <div class="card-body p-4">
+            <h3>Movie Reviews</h3>
+            <table id="tableData" class="table table-bordered table-striped" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Select</th>
+                        <th>ProductId</th>
+                        <th>Product</th>
+                        <th>User Name</th>
+                        <th>Star Rate</th>
+                        <th>Comment</th>
+                        <th>Create Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Where(m => m.ProductType == "Movie"))
+                    {
+                        <tr>
+                            <td><input type="checkbox" name="selectedReviews" value="@item.MovieId" /></td>
+                            <td>@item.MovieId</td>
+                            <td>@item.ProductName</td>
+                            <td>@item.Name</td>
+                            <td>@item.StarRate</td>
+                            <td>@item.Content</td>
+                            <td>@item.CreateDate.ToString("dd/MM/yyyy")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    function showTable(type) {
+        // Ẩn tất cả các bảng
+        document.getElementById('allReviewsTable').style.display = 'none';
+        document.getElementById('albumTable').style.display = 'none';
+        document.getElementById('gameTable').style.display = 'none';
+        document.getElementById('movieTable').style.display = 'none';
+
+        // Hiển thị bảng tương ứng
+        if (type === 'all') {
+            document.getElementById('allReviewsTable').style.display = 'block';
+        } else if (type === 'album') {
+            document.getElementById('albumTable').style.display = 'block';
+        } else if (type === 'game') {
+            document.getElementById('gameTable').style.display = 'block';
+        } else if (type === 'movie') {
+            document.getElementById('movieTable').style.display = 'block';
+        }
+    }
+
+    function deleteSelected() {
+        // Lấy tất cả các ô checkbox đã chọn
+        var selected = document.querySelectorAll('input[name="selectedReviews"]:checked');
+        var ids = Array.from(selected).map(checkbox => checkbox.value);
+
+        // Nếu không có ô checkbox nào được chọn
+        if (ids.length === 0) {
+            alert('No reviews selected for deletion.');
+            return;
+        }
+        // Sắp xếp ids để xóa từ trên xuống
+        ids = ids.sort((a, b) => a - b);
+
+        // Xử lý xóa (ví dụ: gửi ids đến máy chủ)
+        console.log('Deleting reviews with IDs:', ids);
+
+        // Ví dụ gửi yêu cầu AJAX để xóa các mục đã chọn
+        fetch('/Admin/Review/DeleteSelected', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ ids: ids })
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Cập nhật giao diện sau khi xóa thành công
+                    alert('Reviews deleted successfully.');
+                    location.reload(); // Tải lại trang để cập nhật danh sách
+                } else {
+                    alert('Error deleting reviews.');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error deleting reviews.');
+            });
+    }
+
+</script>

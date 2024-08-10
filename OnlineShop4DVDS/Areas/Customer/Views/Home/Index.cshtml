@@ -1,0 +1,310 @@
+﻿@using Ultility
+@model HomePageViewModel
+
+@if (Model.MainBannerList != null)
+{
+    <div class="slider-div owl-carousel owl-theme mb-5">
+        @foreach (var item in Model.MainBannerList)
+        {
+            <figure>
+                <img alt="sy" src="/@item.ImageUrl" />
+            </figure>
+        }
+    </div>
+}
+
+<div class="container-content mt-5">
+    <div class="card-content">
+        <img src="/images/Album.webp" alt="Image 1">
+        <div class="content">
+            <h2>ALBUM</h2>
+            <p>Jimmie Vaughan, Bill Kirchen, and Dan Penn, Spooner Oldham, and more!</p>
+            <a asp-area="Customer" asp-controller="Album" asp-action="Index">Shop Now</a>
+        </div>
+    </div>
+    <div class="card-content">
+        <img src="/images/Movie.webp" alt="Image 2">
+        <div class="content">
+            <h2>MOVIE</h2>
+            <p>The undisputed leader in quality exploitation films</p>
+            <a asp-area="Customer" asp-controller="Movie" asp-action="Index">Shop Now</a>
+        </div>
+    </div>
+    <div class="card-content">
+        <img src="/images/Game.jpg" alt="Image 3">
+        <div class="content">
+            <h2>GAME</h2>
+            <p>Game On, World Off</p>
+            <a asp-area="Customer" asp-controller="Game" asp-action="Index">Shop Now</a>
+        </div>
+    </div>
+</div>
+
+@if (Model.ProductListViewModel.Count() > 0)
+{
+    <div class="recommended-products d-inline-block w-100 py-5">
+        <h2 class="mb-5" style="font-weight: bold">New Releases</h2>
+        <div class="shop-slider owl-carousel owl-theme mt-3">
+            @foreach (var item in Model.ProductListViewModel)
+            {
+                switch (item.ProductType)
+                {
+                    case StaticDetail.ProductType_Album:
+                        <!-- Product card -->
+                        <div class="col" id="list-item">
+                            <div class="product-grid">
+                                <div class="product-image">
+                                    <a asp-area="Customer" asp-controller="Album" asp-action="Detail" asp-route-id="@item.ProductId" class="image" class="image">
+                                        <img src="/@item.ImageUrl" alt="Product Image">
+                                    </a>
+                                    @if (item.Promotion != null && item.Promotion.DiscountPercent > 0)
+                                    {
+                                        <span class="product-discount-label">@item.Promotion.DiscountPercent%</span>
+                                    }
+                                    <span class="content-type">@item.ContentType.Type</span>
+                                    @if (@item.ContentType.Type == StaticDetail.ContentType_Free)
+                                    {
+                                        <a asp-area="Customer" asp-controller="Album" asp-action="Detail" asp-route-id="@item.ProductId" class="add-to-cart">Detail</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-area="Customer" asp-controller="Home" asp-action="AddToCart" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType" class="add-to-cart">Add to Cart</a>
+                                    }
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a asp-area="Customer" asp-route-id="@item.ProductId" asp-controller="Album" asp-action="Detail">@item.Name</a></h3>
+                                    @if (item.PromotionPrice != null && item.PromotionPrice > 0)
+                                    {
+                                        <div class="price">$@item.PromotionPrice <span>@item.Price</span></div>
+                                    }
+                                    else
+                                    {
+                                        <div class="price">$@item.Price</div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        break;
+
+                    case StaticDetail.ProductType_Movie:
+                        <!-- Product card -->
+                        <div class="col" id="list-item">
+                            <div class="product-grid">
+                                <div class="product-image">
+                                    <a asp-area="Customer" asp-controller="Movie" asp-action="Detail" asp-route-id="@item.ProductId" class="image" class="image">
+                                        <img src="/@item.ImageUrl" alt="Product Image">
+                                    </a>
+                                    @if (item.Promotion != null && item.Promotion.DiscountPercent > 0)
+                                    {
+                                        <span class="product-discount-label">@item.Promotion.DiscountPercent%</span>
+                                    }
+                                    <span class="content-type">@item.ContentType.Type</span>
+                                    @if (@item.ContentType.Type == StaticDetail.ContentType_Free)
+                                    {
+                                        <a asp-area="Customer" asp-controller="Movie" asp-action="Detail" asp-route-id="@item.ProductId" class="add-to-cart">Detail</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-area="Customer" asp-controller="Home" asp-action="AddToCart" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType" class="add-to-cart">Add to Cart</a>
+                                    }
+
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a asp-area="Customer" asp-route-id="@item.ProductId" asp-controller="Movie" asp-action="Detail">@item.Name</a></h3>
+                                    @if (item.PromotionPrice != null && item.PromotionPrice > 0)
+                                    {
+                                        <div class="price">$@item.PromotionPrice <span>@item.Price</span></div>
+                                    }
+                                    else
+                                    {
+                                        <div class="price">$@item.Price</div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        break;
+
+                    case StaticDetail.ProductType_Game:
+                        <!-- Product card -->
+                        <div class="item">
+                            <div class="product-grid">
+                                <div class="product-image">
+                                    <a asp-area="Customer" asp-controller="Game" asp-action="Detail" asp-route-id="@item.ProductId" class="image">
+                                        <img src="/@item.ImageUrl" alt="Product Image">
+                                    </a>
+                                    @if (item.Promotion != null && item.Promotion.DiscountPercent > 0)
+                                    {
+                                        <span class="product-discount-label">@item.Promotion.DiscountPercent%</span>
+                                    }
+                                    <span class="content-type">@item.ContentType.Type</span>
+                                    @if (@item.ContentType.Type == StaticDetail.ContentType_Free)
+                                    {
+                                        <a asp-area="Customer" asp-controller="Game" asp-action="Detail" asp-route-id="@item.ProductId" class="add-to-cart">Detail</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-area="Customer" asp-controller="Home" asp-action="AddToCart" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType" class="add-to-cart">Add to Cart</a>
+                                    }
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a asp-area="Customer" asp-route-id="@item.ProductId" asp-controller="Game" asp-action="Detail">@item.Name</a></h3>
+                                    @if (item.PromotionPrice != null && item.PromotionPrice > 0)
+                                    {
+                                        <div class="price">$@item.PromotionPrice <span class="original-price">$@item.Price</span></div>
+                                    }
+                                    else
+                                    {
+                                        <div class="price">$@item.Price</div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        break;
+                }
+
+            }
+        </div>
+    </div>
+}
+
+@if (Model.RecommendProductSlider.Count() > 0)
+{
+    <div class="recommended-products d-inline-block w-100 py-5 mb-5">
+        <h2 class="mb-5" style="font-weight: bold">You may also like</h2>
+        <div class="shop-slider owl-carousel owl-theme mt-3">
+            @foreach (var item in Model.RecommendProductSlider)
+            {
+                switch (item.ProductType)
+                {
+                    case StaticDetail.ProductType_Album:
+                        <!-- Product card -->
+                        <div class="col" id="list-item">
+                            <div class="product-grid">
+                                <div class="product-image">
+                                    <a asp-area="Customer" asp-controller="Album" asp-action="Detail" asp-route-id="@item.ProductId" class="image" class="image">
+                                        <img src="/@item.ImageUrl" alt="Product Image">
+                                    </a>
+                                    @if (item.Promotion != null && item.Promotion.DiscountPercent > 0)
+                                    {
+                                        <span class="product-discount-label">@item.Promotion.DiscountPercent%</span>
+                                    }
+                                    <span class="content-type">@item.ContentType.Type</span>
+                                    @if (@item.ContentType.Type == StaticDetail.ContentType_Free)
+                                    {
+                                        <a asp-area="Customer" asp-controller="Album" asp-action="Detail" asp-route-id="@item.ProductId" class="add-to-cart">Detail</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-area="Customer" asp-controller="Home" asp-action="AddToCart" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType" class="add-to-cart">Add to Cart</a>
+                                    }
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a asp-area="Customer" asp-route-id="@item.ProductId" asp-controller="Album" asp-action="Detail">@item.Name</a></h3>
+                                    @if (item.PromotionPrice != null && item.PromotionPrice > 0)
+                                    {
+                                        <div class="price">$@item.PromotionPrice <span>@item.Price</span></div>
+                                    }
+                                    else
+                                    {
+                                        <div class="price">$@item.Price</div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        break;
+
+                    case StaticDetail.ProductType_Movie:
+                        <!-- Product card -->
+                        <div class="col" id="list-item">
+                            <div class="product-grid">
+                                <div class="product-image">
+                                    <a asp-area="Customer" asp-controller="Movie" asp-action="Detail" asp-route-id="@item.ProductId" class="image" class="image">
+                                        <img src="/@item.ImageUrl" alt="Product Image">
+                                    </a>
+                                    @if (item.Promotion != null && item.Promotion.DiscountPercent > 0)
+                                    {
+                                        <span class="product-discount-label">@item.Promotion.DiscountPercent%</span>
+                                    }
+                                    <span class="content-type">@item.ContentType.Type</span>
+                                    @if (@item.ContentType.Type == StaticDetail.ContentType_Free)
+                                    {
+                                        <a asp-area="Customer" asp-controller="Movie" asp-action="Detail" asp-route-id="@item.ProductId" class="add-to-cart">Detail</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-area="Customer" asp-controller="Home" asp-action="AddToCart" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType" class="add-to-cart">Add to Cart</a>
+                                    }
+
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a asp-area="Customer" asp-route-id="@item.ProductId" asp-controller="Movie" asp-action="Detail">@item.Name</a></h3>
+                                    @if (item.PromotionPrice != null && item.PromotionPrice > 0)
+                                    {
+                                        <div class="price">$@item.PromotionPrice <span>@item.Price</span></div>
+                                    }
+                                    else
+                                    {
+                                        <div class="price">$@item.Price</div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        break;
+
+                    case StaticDetail.ProductType_Game:
+                        <!-- Product card -->
+                        <div class="item">
+                            <div class="product-grid">
+                                <div class="product-image">
+                                    <a asp-area="Customer" asp-controller="Game" asp-action="Detail" asp-route-id="@item.ProductId" class="image">
+                                        <img src="/@item.ImageUrl" alt="Product Image">
+                                    </a>
+                                    @if (item.Promotion != null && item.Promotion.DiscountPercent > 0)
+                                    {
+                                        <span class="product-discount-label">@item.Promotion.DiscountPercent%</span>
+                                    }
+                                    <span class="content-type">@item.ContentType.Type</span>
+                                    @if (@item.ContentType.Type == StaticDetail.ContentType_Free)
+                                    {
+                                        <a asp-area="Customer" asp-controller="Game" asp-action="Detail" asp-route-id="@item.ProductId" class="add-to-cart">Detail</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-area="Customer" asp-controller="Home" asp-action="AddToCart" asp-route-productId="@item.ProductId" asp-route-productType="@item.ProductType" class="add-to-cart">Add to Cart</a>
+                                    }
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a asp-area="Customer" asp-route-id="@item.ProductId" asp-controller="Game" asp-action="Detail">@item.Name</a></h3>
+                                    @if (item.PromotionPrice != null && item.PromotionPrice > 0)
+                                    {
+                                        <div class="price">$@item.PromotionPrice <span class="original-price">$@item.Price</span></div>
+                                    }
+                                    else
+                                    {
+                                        <div class="price">$@item.Price</div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        break;
+                }
+
+            }
+        </div>
+    </div>
+}
+
+<div class="row d-flex align-items-center justify-content-center my-5">
+    <div class="col-lg-4">
+        <figure class="m-0">
+            <img alt="srt" src="/images/logo.png" class="img-fluid" />
+        </figure>
+    </div>
+    <div class="col-lg-5">
+        <h1 class="sub-text" style="font-weight: bold; font-size: 2.5em">About Online Shop For DVD</h1>
+        <p class="mt-3" style="font-size: 1.1em">
+            Online Shop for DVD is your go-to destination for a wide variety of DVDs, including movies, music albums, and video games. We pride ourselves on offering a diverse selection of high-quality products to satisfy every entertainment preference. Our user-friendly website ensures an enjoyable shopping experience, featuring detailed product descriptions, customer reviews, and personalized recommendations.
+        <p class="mt-3 mb-5" style="font-size: 1.1em">With a focus on exceptional customer service, secure payment options, and reliable shipping, we make it easy for you to find and receive your favorite DVDs. Join our community of satisfied customers and discover the convenience of shopping for DVDs online with us. At Online Shop for DVD, we bring entertainment to your doorstep.</p>
+        <a class="custom-button" asp-area="Customer" asp-controller="About" asp-action="Index">Learn more</a>
+    </div>
+</div>

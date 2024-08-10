@@ -1,0 +1,58 @@
+﻿<style>
+    #tableData tbody td {
+        vertical-align: middle;
+    }
+</style>
+
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Product List</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row pb-3">
+            <div class="col-6 d-flex justify-content-between">
+                <ul id="productTypeFilter" class="list-group list-group-horizontal-sm">
+                    <a style="text-decoration:none;">
+                    <li class="list-group-item" data-type="" style="cursor: pointer;">All Product Type</li>
+                    </a>
+                    <a style="text-decoration:none;">
+                    <li class="list-group-item" data-type="Album" style="cursor: pointer;">Album</li>
+                    </a>
+                    <a style="text-decoration:none;">
+                    <li class="list-group-item" data-type="Movie" style="cursor: pointer;">Movie</li>
+                    </a>
+                    <a style="text-decoration:none;">
+                    <li class="list-group-item" data-type="Game" style="cursor: pointer;">Game</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-6 text-end">
+                <a asp-area="Admin" asp-controller="RecommendSlider" asp-action="Index" class="btn btn-primary">
+                    Back To List
+                </a>
+            </div>
+        </div>
+        <table class="table table-bordered table-striped" id="tableData" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Image</th>
+                    <th>Price</th>
+                    <th>Discount</th>
+                    <th>Promotion Price</th>
+                    <th>Content Type</th>
+                    <th>Product Type</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/Asset/Admin/js/addproductlist.js"></script>
+}

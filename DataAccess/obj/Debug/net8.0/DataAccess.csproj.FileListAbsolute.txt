@@ -1,0 +1,704 @@
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\.Net Core\Identity\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\New folder\Identity\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Impotant\Identity\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Impotant\Identity\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Impotant\Identity\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Impotant\Identity\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Impotant\Identity\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Impotant\Identity\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Impotant\Identity\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Impotant\Identity\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Impotant\Identity\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Impotant\Identity\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Impotant\Identity\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Impotant\Identity\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Impotant\Identity\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Impotant\Identity\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Impotant\Identity\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Impotant\Identity\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Impotant\Identity\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\DELL\Downloads\Identity_up1\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Impotant\OnlineShop4DVDS23072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll

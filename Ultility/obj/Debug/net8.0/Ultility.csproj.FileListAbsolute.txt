@@ -1,0 +1,566 @@
+C:\Users\Moxxi\Desktop\.Net Core\Identity\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\.Net Core\Identity\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\.Net Core\Identity\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\.Net Core\Identity\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\.Net Core\Identity\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\.Net Core\Identity\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\.Net Core\Identity\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\.Net Core\Identity\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\.Net Core\Identity\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\.Net Core\Identity\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\.Net Core\Identity\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\New folder\Identity\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Impotant\Identity\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Impotant\Identity\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Impotant\Identity\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Impotant\Identity\Ultility\bin\Debug\net8.0\Models.dll
+D:\Impotant\Identity\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Impotant\Identity\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Impotant\Identity\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Impotant\Identity\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Impotant\Identity\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Impotant\Identity\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Impotant\Identity\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Impotant\Identity\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Impotant\Identity\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Impotant\Identity\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Impotant\Identity\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\DELL\Downloads\Identity_up1\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\DELL\Downloads\Identity_up1\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\DELL\Downloads\Identity_up1\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\DELL\Downloads\Identity_up1\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\DELL\Downloads\Identity_up1\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\DELL\Downloads\Identity_up1\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\Identity_up1\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Downloads\Identity_up1\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\Identity_up1\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\DELL\Downloads\Identity_up1\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\Identity_up1\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\DELL\Downloads\Identity_up1\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\DELL\Downloads\Identity_up1\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\DELL\Downloads\Identity_up1\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\DELL\Downloads\Identity_up1\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS13072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS14072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDSUp_4_71524\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS15072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\OnlineShop4DVDS15072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS16072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS18072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS22072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\bin\Debug\net8.0\Models.dll
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Impotant\OnlineShop4DVDS23072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS24072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS25072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS26072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS27072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS27072024 - Copy\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS27072024 28_7_24\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024 (Test Run)\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\DoAn\OnlineShop4DVDS29072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS29072024_sk\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS_30_7_new\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS_30_7\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS31072024 - Copy_tuan\OnlineShop4DVDS31072024 - Copy\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS01082024 (Final)\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS02082024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\bin\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\bin\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\bin\Debug\net8.0\Models.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\bin\Debug\net8.0\Models.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.pdb
+C:\Users\Moxxi\Desktop\OnlineShop4DVDS\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\HK3\DO AN\OnlineShop4DVDS-dua-code-vao-day\OnlineShop4DVDS03082024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS07082024\Ultility\obj\Debug\net8.0\ref\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\bin\Debug\net8.0\Ultility.deps.json
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\bin\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\bin\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\bin\Debug\net8.0\Models.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\bin\Debug\net8.0\Models.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\obj\Debug\net8.0\Ultility.csproj.AssemblyReference.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\obj\Debug\net8.0\Ultility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfoInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\obj\Debug\net8.0\Ultility.AssemblyInfo.cs
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\obj\Debug\net8.0\Ultility.csproj.CoreCompileInputs.cache
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\obj\Debug\net8.0\Ultility.csproj.Up2Date
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\obj\Debug\net8.0\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\obj\Debug\net8.0\refint\Ultility.dll
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\obj\Debug\net8.0\Ultility.pdb
+D:\Aptech\2303.M0\Sem3\OnlineShop4DVDS (FINAL)\OnlineShop4DVDS09082024\Ultility\obj\Debug\net8.0\ref\Ultility.dll

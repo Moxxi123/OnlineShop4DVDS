@@ -1,0 +1,75 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Ultility
+@inject UserManager<IdentityUser> UserManager
+@model string
+@{
+    // Get the current page path
+    string currentPath = Context.Request.Path.ToString();
+
+    // Retrieve the current user
+    var user = UserManager.GetUserAsync(User).GetAwaiter().GetResult();
+
+    // Check if the user has a hashed password
+    var hasPassword = user != null && UserManager.HasPasswordAsync(user).GetAwaiter().GetResult();
+}
+
+<style>
+    .nav-pills li {
+        opacity: 0.5;
+        transition: opacity 0.3s ease;
+    }
+
+    .nav-pills li:hover {
+        opacity: 1;
+    }
+
+    .nav-pills .active {
+        opacity: 1;
+        border-left: 3px solid #0d6efd;
+    }
+</style>
+
+@* <script>
+    console.log('@currentPath');
+</script> *@
+
+<div class="col-md-2" style="font-size: 1.1em">
+    <div class="card shadow border-0 my-4">
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="@(currentPath == "/customer/user/edit" ? "active" : "")">
+                <a href="/customer/user/edit?userId=@Model" class="nav-link link-dark">
+                    Account
+                </a>
+            </li>
+
+            <li class="@(currentPath == "/customer/order/index" ? "active" : "")">
+                <a href="/customer/order/index" class="nav-link link-dark">
+                    Order History
+                </a>
+            </li>
+
+            @if (hasPassword)
+            {
+               @*  <li class="@(currentPath == "/customer/user/changeemailaddress" ? "active" : "")">
+                    <a href="/customer/user/changeemailaddress?userId=@Model" class="nav-link link-dark">
+                        Change Email
+                    </a>
+                </li> *@
+                <li class="@(currentPath == "/customer/user/changepassword" ? "active" : "")">
+                    <a href="/customer/user/changepassword?userId=@Model" class="nav-link link-dark">
+                        Change Password
+                    </a>
+                </li>
+            }
+
+            @if (!User.IsInRole(StaticDetail.Role_Customer))
+            {
+                <li class="@(currentPath == "/admin/home/index" ? "active" : "")">
+                    <a href="/admin/home/index" class="nav-link link-dark">
+                        Go to Admin Page
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

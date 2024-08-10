@@ -1,0 +1,85 @@
+﻿@model IEnumerable<News>
+
+<div class="container listing-banner-part">
+	<h2 class="text-white"> News </h2>
+</div>
+
+<div class="container blog-details-page comon-services-pge py-5">
+	<div class="row gx-lg-5">
+		@foreach (var item in Model)
+		{
+			<div class="col-lg-7 col-xl-8">
+				<div class="blog-post">					
+					<div class="d-md-flex justify-content-between share-div">
+						<ul class="list-unstyled d-flex">
+							<li> <i class="fas fa-tags">@item.NewsCategory</i> </li>
+							<li> <i class="far fa-calendar-alt"></i>  @item.PublishDate </li>
+						</ul>
+					</div>
+					<h2 class="comon-heading mt-4"> @Html.Raw(item.Title)  </h2>
+					<p>
+						@Html.Raw(item.NewsContent)
+					</p>
+				</div>
+			</div>
+		}
+		<div class="col-lg-5 col-xl-4">
+			@* <div class="category-div">
+				<h2 class="comon-heading m-0"> Product Categories </h2>
+				<ul class="list-unstyled mt-4">
+					<li>
+						<a asp-area="Customer" asp-controller="Game" asp-action="Index">
+							<i class="fas fa-caret-right"></i> Game
+						</a>
+					</li>
+					<li>
+						<a asp-area="Customer" asp-controller="Movie" asp-action="Index">
+							<i class="fas fa-caret-right"></i> Movie
+						</a>
+					</li>
+					<li>
+						<a asp-area="Customer" asp-controller="Album" asp-action="Index">
+							<i class="fas fa-caret-right"></i> Music
+						</a>
+					</li>
+				</ul>
+			</div> *@
+
+			<div class="category-div">
+				<h2 class="comon-heading m-0"> News Categories </h2>				
+				<ul class="list-unstyled mt-4">
+					<li>
+						<a asp-area="Customer" asp-controller="News" asp-action="Index" asp-route-category="Game">
+							<i class="fas fa-caret-right"></i> Game
+						</a>
+					</li>
+					<li>
+						<a asp-area="Customer" asp-controller="News" asp-action="Index" asp-route-category="Movie">
+							<i class="fas fa-caret-right"></i> Movie
+						</a>
+					</li>
+					<li>
+						<a asp-area="Customer" asp-controller="News" asp-action="Index" asp-route-category="Music">
+							<i class="fas fa-caret-right"></i> Music
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			@* @foreach (var item in Model)
+			{
+				<div class="recent-post-div mt-5">
+					<h2 class="mb-4 comon-heading"> Currently Reading News </h2>
+					<div class="recent-post-div-insiide">
+						<a asp-area="Customer" asp-route-id="@item.Id" asp-controller="News" asp-action="Detail" asp-route-category="@item.NewsCategory" class="d-flex w-100 justify-content-between align-items-center">
+							<figure>
+								<img src="/@item.ImageUrl" alt="post" />
+							</figure>
+							<h5>  @Html.Raw(item.Title)  </h5>
+						</a>
+					</div>
+				</div>
+			} *@
+		</div>
+	</div>
+</div>

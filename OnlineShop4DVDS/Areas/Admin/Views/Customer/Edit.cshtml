@@ -1,0 +1,121 @@
+﻿@using Ultility
+@model ApplicationUser
+@{
+    string userId = Model.Id;
+}
+
+<div class="container-fluid mt-3">
+    <div class="row">
+        <!-- Header -->
+        <div class="col-md-12">
+            <div class="card-header bg-secondary bg-gradient ml-0 py-4">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="text-white py-2">Edit Customer</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-md-12">
+            <div class="card shadow border-0 my-4">
+                <div class="card-body p-4">
+                    <!-- Overview Section -->
+                    <div class="mb-3">
+                        <h3>Overview</h3>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label class="form-label">Name</label>
+                                    <h6>@Model.Name</h6>
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label">Email</label>
+                                    <h6>@Model.Email</h6>
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label">Role</label>
+                                    <h6>@Model.Role</h6>
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label">Phone Number</label>
+                                    <h6>@Model.PhoneNumber</h6>
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label">Street Address</label>
+                                    <h6>@Model.StreetAddress</h6>
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label">City</label>
+                                    <h6>@Model.City</h6>
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label">State</label>
+                                    <h6>@Model.State</h6>
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label">Postal Code</label>
+                                    <h6>@Model.PostalCode</h6>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <!-- Form Section -->
+                    <div>
+                        <div class="mb-3">
+                            <h3>Edit User</h3>
+                        </div>
+                        <form class="row" asp-area="Admin" asp-controller="Customer" asp-action="Edit" method="post">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+                            <input asp-for="@Model.Id" hidden />
+                            <input asp-for="@Model.RoleId" hidden />
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control border-0 shadow-sm" asp-for="Name" placeholder="Enter your full name" />
+                                <label asp-for="Name">Name</label>
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control border-0 shadow-sm" asp-for="PhoneNumber" placeholder="Enter phone number" />
+                                <label asp-for="PhoneNumber">Phone Number</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control border-0 shadow-sm" asp-for="StreetAddress" placeholder="Enter address" />
+                                <label asp-for="StreetAddress">Street Address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control border-0 shadow-sm" asp-for="City" placeholder="Enter city" />
+                                <label asp-for="City">City</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control border-0 shadow-sm" asp-for="State" placeholder="Enter state" />
+                                <label asp-for="State">State</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control border-0 shadow-sm" asp-for="PostalCode" placeholder="Enter postal code" />
+                                <label asp-for="PostalCode">Postal Code</label>
+                            </div>
+
+                            <div class="row pt-2">
+                                <div class="col-6 col-md-3">
+                                    <button type="submit" class="btn btn-primary form-control">Update</button>
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <a asp-area="Admin" asp-controller="User" asp-action="Index" class="btn btn-outline-primary border form-control">Back To List</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

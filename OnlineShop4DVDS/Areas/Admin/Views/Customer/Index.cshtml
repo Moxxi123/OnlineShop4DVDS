@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ApplicationUser>
+@{
+    var successMessage = TempData["SuccessMessage"] as string;
+}
+
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Customer List</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row pb-3">
+            <input type="hidden" id="successMessage" value="@successMessage" />
+        </div>
+        <table class="table table-bordered table-striped" id="tableData" style="width:100%">
+            <thead>
+                <tr>
+                    <th>User Name</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+    @section Scripts {
+        <script src="~/Asset/Admin/js/customer.js"></script>
+    }

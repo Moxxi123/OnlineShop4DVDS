@@ -1,0 +1,43 @@
+﻿@model MainBanner
+
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient py-4">
+        <div class="text-center">
+            <h2 class="text-white mb-0">Create Game</h2>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <form asp-area="Admin" asp-controller="MainBanner" asp-action="Create" class="row" enctype="multipart/form-data" method="post">
+            <div class="border p-4 rounded">
+                <div asp-validation-summary="All" class="text-danger mb-3"></div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control border-0 shadow-sm" asp-for="Description"/>
+                    <label asp-for="Description">Description</label>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="number" class="form-control border-0 shadow-sm" asp-for="OrderDisplay" min="1" />
+                    <label asp-for="OrderDisplay">Order Display</label>
+                    <span asp-validation-for="OrderDisplay" class="text-danger"></span>
+                </div>
+                <div class="form-control mb-3">
+                    <label class="mb-2" for="MainImage" style="color: #97979a">Image</label>
+                    <input type="file" name="MainImage" class="form-control" id="MainImage" style="border: none" />
+                    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                </div>
+                <div class="row pt-2">
+                    <div class="col-6 col-md-3">
+                        <button type="submit" class="btn btn-primary form-control">Create</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a asp-area="Admin" asp-controller="MainBanner" asp-action="Index" class="btn btn-outline-primary border form-control">Back To List</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

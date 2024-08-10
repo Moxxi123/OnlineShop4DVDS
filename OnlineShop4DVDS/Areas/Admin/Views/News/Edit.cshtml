@@ -1,0 +1,82 @@
+﻿@using Ultility
+@model News
+
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient py-4">
+        <div class="text-center">
+            <h2 class="text-white mb-0">Update News</h2>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <form asp-area="Admin" asp-controller="News" asp-action="Edit" enctype="multipart/form-data" class="row" method="post">
+            <div class="border p-4 rounded">
+                <div asp-validation-summary="All" class="text-danger mb-3"></div>
+                <input asp-for="Id" hidden />
+                <input asp-for="Status" hidden />
+                <input asp-for="ImageUrl" hidden />
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control border-0 shadow-sm" asp-for="Title" placeholder="Title" />
+                    <label asp-for="Title">News Title</label>
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea type="text" class="form-control border-0 shadow-sm" asp-for="Summary" placeholder="Summary"></textarea>
+                    <label asp-for="Summary">Summary</label>
+                    <span asp-validation-for="Summary" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea type="text" class="form-control border-0 shadow-sm" asp-for="NewsContent"></textarea>
+                    <label asp-for="NewsContent">Content</label>
+                    <span asp-validation-for="NewsContent" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="datetime-local" class="form-control border-0 shadow-sm" asp-for="PublishDate" placeholder="PublishDate" />
+                    <label asp-for="PublishDate">Publish Date</label>
+                    <span asp-validation-for="PublishDate" class="text-danger"></span>
+                </div>
+                <div class="form-control mb-3">
+                    <label class="mb-2" for="NewsCategory" style="color: #97979a">News Category</label>
+                    <select id="NewsCategory" class="form-select py-0" style="border: none" asp-for="NewsCategory">
+                        <option disabled selected>--Select a News Category--</option>
+                        <option value="@StaticDetail.ProductType_Game">Game</option>
+                        <option value="@StaticDetail.ProductType_Music">Music</option>
+                        <option value="@StaticDetail.ProductType_Movie">Movie</option>
+                    </select>
+                </div>
+
+                @if (Model.ImageUrl != null)
+                {
+                    <div class="form-control mb-3">
+                        <label class="mb-2" for="currentImage" style="color: #97979a">Current Image</label>
+                        <img id="currentImage" src="/@Model.ImageUrl" class="form-control w-25" alt="Current Image" style="border: none" />
+                    </div>
+                }
+                <div class="form-control mb-3">
+                    <label class="mb-2" for="MainImage" style="color: #97979a">Image</label>
+                    <input type="file" name="MainImage" class="form-control" id="MainImage" style="border: none" />
+                    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                </div>
+
+                <div class="row pt-2">
+                    <div class="col-6 col-md-3">
+                        <button type="submit" class="btn btn-primary form-control">Update</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a asp-area="Admin" asp-controller="News" asp-action="Index" class="btn btn-outline-primary border form-control">Back To List</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount linkchecker',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
+        });
+    </script>
+    <partial name="_ValidationScriptsPartial" />
+}

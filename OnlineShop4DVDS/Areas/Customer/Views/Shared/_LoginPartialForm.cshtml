@@ -1,0 +1,80 @@
+﻿@model LoginViewModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> signInManager
+
+<style>
+    .divider:after,
+    .divider:before {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: #eee;
+    }
+</style>
+
+<div id="login-td-div" class="com-div-md">
+    <form asp-area="Customer" asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Context.Request.Path">
+        <h5 class="text-center mb-3">Login</h5>
+        <button type="button" class="close" data-bs-dismiss="modal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+        </button>
+        <div class="login-modal-pn">
+            <div asp-validation-summary="All" class="text-danger mb-3"></div>
+            <div class="cm-select-login mt-3">
+                <!-- Email input -->
+                <div class="country-dp">
+                    <input id="loginEmail" type="email" asp-for="Email" class="form-control" placeholder="Enter email address" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <!-- Password input -->
+                <div class="phone-div">
+                    <input type="password" asp-for="Password" class="form-control form-control-lg" placeholder="Enter password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="country-dp">
+                    <input class="form-check-input me-2" type="checkbox" asp-for="RememberMe" />
+                    <label class="form-check-label">
+                        Remember me
+                    </label>
+                </div>
+            </div>
+            <button type="submit" name="submit" class="btn continue-bn"> <i class="bi bi-shield-lock-fill"></i> SIGN IN </button>
+        </div>
+        <p class="text-center mt-3">
+            <a data-bs-toggle="modal" class="regster-bn" data-bs-target="#lostpsModal" data-bs-dismiss="modal"> Lost Password ? </a>
+        </p>
+        <p class="text-center mt-3">
+            Do not have an account?
+            <a class="regster-bn" asp-area="Customer" asp-controller="Account" asp-action="Register">Register</a>
+        </p>
+    </form>
+
+    <div class="divider d-flex align-items-center my-4">
+        <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+    </div>
+    @{
+        var schemes = await signInManager.GetExternalAuthenticationSchemesAsync();
+        var loginProviders = schemes.ToList();
+    }
+    @if (loginProviders.Count > 0)
+    {
+        <form asp-area="Customer" asp-controller="Account" asp-action="ExternalLogin" method="post">
+            <div class="login-modal-pn">
+                @foreach (var provider in loginProviders)
+                {
+                    <button type="submit" class="btn continue-bn" name="provider" value="@provider.Name" style="background-color: blue">
+                        Continue with @provider.Name
+                    </button>
+                }
+            </div>
+        </form>
+    }
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+

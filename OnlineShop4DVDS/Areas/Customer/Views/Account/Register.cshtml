@@ -1,0 +1,143 @@
+﻿@model RegisterViewModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> signInManager
+
+<style>
+    .divider:after,
+    .divider:before {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: #eee;
+    }
+</style>
+
+<div class="card shadow border-0">
+    <div class="card-header m-lg-0 py-4" style="background-color: #1d1d1d;">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="py-2 text-white">Register</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row pt-3">
+            <div class="col-md-12">
+                <form class="row" asp-area="Customer" asp-controller="Account" asp-action="Register" method="post">
+                    <div asp-validation-summary="All" class="text-danger my-2"></div>
+                    <div class="form-group mb-3 col-md-6">
+                        <div class="d-flex align-items-center input-group" style="border: 1px solid #ddd; border-radius: 4px; font-size: 1.8em">
+                            <div class="input-group-prepend mx-2" style="color: #6c747c">
+                                <i class="bi bi-person"></i>
+                            </div>
+                            <input type="text" asp-for="Name" class="form-control form-control-lg focus-visible:ring-transparent px-0" aria-required="true" placeholder="Enter your full name" style="background-color: transparent; border: none; outline: none; box-shadow: none;">
+                        </div>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3 col-md-6">
+                        <div class="d-flex align-items-center input-group" style="border: 1px solid #ddd; border-radius: 4px; font-size: 1.8em">
+                            <div class="input-group-prepend mx-2" style="color: #6c747c">
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <input type="text" asp-for="PhoneNumber" class="form-control form-control-lg focus-visible:ring-transparent px-0" aria-required="true" placeholder="Enter phone number" style="background-color: transparent; border: none; outline: none; box-shadow: none;">
+                        </div>
+                    </div>
+                    <div class="form-group mb-3 col-md-12">
+                        <div class="d-flex align-items-center input-group" style="border: 1px solid #ddd; border-radius: 4px; font-size: 1.8em">
+                            <div class="input-group-prepend mx-2" style="color: #6c747c">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <input type="email" asp-for="Email" class="form-control form-control-lg focus-visible:ring-transparent px-0" aria-required="true" placeholder="Enter email" style="background-color: transparent; border: none; outline: none; box-shadow: none;">
+                        </div>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3 col-md-6">
+                        <div class="d-flex align-items-center input-group" style="border: 1px solid #ddd; border-radius: 4px; font-size: 1.8em">
+                            <div class="input-group-prepend mx-2" style="color: #6c747c">
+                                <i class="bi bi-shield-lock"></i>
+                            </div>
+                            <input type="password" id="password" asp-for="Password" class="form-control form-control-lg focus-visible:ring-transparent px-0" aria-required="true" placeholder="Enter password" style="background-color: transparent; border: none; outline: none; box-shadow: none;">
+                        </div>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3 col-md-6">
+                        <div class="d-flex align-items-center input-group" style="border: 1px solid #ddd; border-radius: 4px; font-size: 1.8em">
+                            <div class="input-group-prepend mx-2" style="color: #6c747c">
+                                <i class="bi bi-shield-lock"></i>
+                            </div>
+                            <input type="password" id="confirmPassword" asp-for="ConfirmPassword" class="form-control form-control-lg focus-visible:ring-transparent px-0" aria-required="true" placeholder="Repeat your password" style="background-color: transparent; border: none; outline: none; box-shadow: none;">
+                        </div>
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3 col-md-6">
+                        <div class="d-flex align-items-center input-group" style="border: 1px solid #ddd; border-radius: 4px; font-size: 1.8em">
+                            <div class="input-group-prepend mx-2" style="color: #6c747c">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <input type="text" asp-for="StreetAddress" class="form-control form-control-lg focus-visible:ring-transparent px-0" aria-required="true" placeholder="Enter address" style="background-color: transparent; border: none; outline: none; box-shadow: none;">
+                        </div>
+                    </div>
+                    <div class="form-group mb-3 col-md-6">
+                        <div class="d-flex align-items-center input-group" style="border: 1px solid #ddd; border-radius: 4px; font-size: 1.8em">
+                            <div class="input-group-prepend mx-2" style="color: #6c747c">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <input type="text" asp-for="City" class="form-control form-control-lg focus-visible:ring-transparent px-0" aria-required="true" placeholder="Enter city" style="background-color: transparent; border: none; outline: none; box-shadow: none;">
+                        </div>
+                    </div>
+                    <div class="form-group mb-3 col-md-6">
+                        <div class="d-flex align-items-center input-group" style="border: 1px solid #ddd; border-radius: 4px; font-size: 1.8em">
+                            <div class="input-group-prepend mx-2" style="color: #6c747c">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <input type="text" asp-for="State" class="form-control form-control-lg focus-visible:ring-transparent px-0" aria-required="true" placeholder="Enter state" style="background-color: transparent; border: none; outline: none; box-shadow: none;">
+                        </div>
+                    </div>
+                    <div class="form-group mb-3 col-md-6">
+                        <div class="d-flex align-items-center input-group" style="border: 1px solid #ddd; border-radius: 4px; font-size: 1.8em">
+                            <div class="input-group-prepend mx-2" style="color: #6c747c">
+                                <i class="bi bi-journal-code"></i>
+                            </div>
+                            <input type="text" asp-for="PostalCode" class="form-control form-control-lg focus-visible:ring-transparent px-0" aria-required="true" placeholder="Enter postal code" style="background-color: transparent; border: none; outline: none; box-shadow: none;">
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem; width: 100%; font-size: 1.2em; background-color: #f72457; color: white">
+                            Register
+                        </button>
+                    </div>
+                </form>
+                <div class="divider d-flex align-items-center my-4">
+                    <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+                </div>
+                @{
+                    var schemes = await signInManager.GetExternalAuthenticationSchemesAsync();
+                    var loginProviders = schemes.ToList();
+                }
+                @if (loginProviders.Count > 0)
+                {
+                    <div class="text-center">
+                        <form asp-controller="Account" asp-action="ExternalLogin" method="post">
+                            @foreach (var provider in loginProviders)
+                            {
+                                <button type="submit" class="btn btn-lg m-2" name="provider" value="@provider.Name" style="font-size: 1.2em; background-color: blue; color: white">
+                                    Continue with @provider.Name
+                                </button>
+                            }
+                        </form>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    @* <script>
+        $(document).ready(function () {
+            $("#loginBtn").hide();
+        });
+    </script> *@
+}

@@ -1,0 +1,119 @@
+﻿@using Ultility
+@model OrderConfirmationViewModel
+
+@{
+    var paymentMessage = TempData["PaymentMessage"] as string;
+}
+
+<div class="listing-banner-part d-inline-block w-100">
+    <div class="container">
+        <h2 class="text-white"> Order Confirmation </h2>
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="form-wizard">
+        <fieldset class="wizard-fieldset show">
+            <div class="row g-lg-5">
+                <div class="col-lg-8">
+                    <div class="ad-fm">
+                        <div class="comon-steps-div">
+                            <h1 style="font-weight: bold; font-size: 2em">Thank you for your order</h1>
+                            <div class="border p-4 my-5" style="font-size: 1.1em">
+                                <div class="d-flex flex-row">
+                                    <div class="me-5 mb-5">
+                                        <p>Order Number</p>
+                                        <p>Order Date</p>
+                                        <p>Customer</p>
+                                    </div>
+                                    <div>
+                                        <p style="font-weight: bold">@Model.OrderItem.Id</p>
+                                        <p style="font-weight: bold">@Model.OrderItem.OrderDate</p>
+                                        <p style="font-weight: bold">@Model.OrderItem.Name</p>
+                                    </div>
+                                </div>
+
+                                <p>Please keep the above numbers for your reference. We'll also send a confirmation to the email address you used for this order. Please allow up to 24 hours for us to process your order for shipment.</p>
+
+                                <div class="row mt-5">
+                                    <div class="col-md-6 mb-5">
+                                        <label class="form-label" style="font-size: 1.1em">Shipping Address</label>
+                                        <h5 class="mb-2" style="font-size: 0.9em; ; font-weight: bold">@Model.OrderItem.Name</h5>
+                                        <h5 class="mb-2" style="font-size: 0.9em">@Model.ApplicationUser.Email</h5>
+                                        <h5 class="mb-2" style="font-size: 0.9em">@Model.OrderItem.PhoneNumber</h5>
+                                        <h5 class="mb-2" style="font-size: 0.9em">@Model.OrderItem.StreetAddress</h5>
+                                        <h5 class="mb-2" style="font-size: 0.8em">@Model.OrderItem.State</h5>
+                                    </div>
+                                    <div class="col-md-6 mb-5">
+                                        <label class="form-label" style="font-size: 1.1em">Payment Method</label>
+                                        <h5 class="mb-2" style="font-size: 0.9em">@paymentMessage</h5>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label class="form-label" style="font-size: 1.1em">Billing Address</label>
+                                        <h5 class="mb-2" style="font-size: 0.9em; font-weight: bold">@Model.OrderItem.Name</h5>
+                                        <h5 class="mb-2" style="font-size: 0.9em">@Model.ApplicationUser.Email</h5>
+                                        <h5 class="mb-2" style="font-size: 0.9em">@Model.OrderItem.PhoneNumber</h5>
+                                        <h5 class="mb-2" style="font-size: 0.9em">@Model.OrderItem.StreetAddress</h5>
+                                        <h5 class="mb-2" style="font-size: 0.9em">@Model.OrderItem.State</h5>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label" style="font-size: 1.1em">Shipping Method</label>
+                                        <h5 class="mb-2" style="font-size: 0.9em">5-6 Business Days</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex align-items-center" style="font-size: 1.3em">
+                                <a asp-area="Customer" asp-controller="Home" asp-action="Index" class="btn btn-lg mx-0" style="font-size: 0.8em; background-color: blue; color: white">Back To Home</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ceck-out-right-div new-checkout">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h2 class="page-titel comon-heading m-0">Your Order</h2>
+
+                        </div>
+
+                        <div class="oder-summary-item mt-4" style="font-size: 1.1em">
+
+                            <dl class="list-group mb-3">
+                                @foreach (var item in Model.OrderDetails)
+                                {
+                                    <dt class="list-group-item d-flex justify-content-between p-3">
+                                        <div>
+                                            <h4 class="my-1 me-5">
+                                                @switch (item.ProductType)
+                                                {
+                                                    case StaticDetail.ProductType_Album:
+                                                        @item.Album.Name
+                                                        break;
+                                                    case StaticDetail.ProductType_Movie:
+                                                        @item.Movie.Name
+                                                        break;
+                                                    case StaticDetail.ProductType_Game:
+                                                        @item.Game.Name
+                                                        break;
+                                                }
+                                            </h4>
+                                            <small class="text-muted">Quantity: @item.Count</small>
+                                        </div>
+                                        <span class="text-muted"> $@item.TotalPrice </span>
+                                    </dt>
+                                }
+                                <dt class="list-group-item d-flex justify-content-between bg-light">
+                                    <small style="font-size: 1.1em; color: #f72457">Total</small>
+                                    <strong style="color: #f72457"> $@Model.OrderItem.OrderTotal</strong>
+                                </dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
+
+

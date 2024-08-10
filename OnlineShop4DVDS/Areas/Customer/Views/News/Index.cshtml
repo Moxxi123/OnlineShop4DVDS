@@ -1,0 +1,105 @@
+﻿@model IEnumerable<News>
+
+<div class="container listing-banner-part">
+	<h2 class="text-white">News</h2>
+</div>
+
+<main class="float-start w-100 main-body-part pt-0">
+	<section class="blogs-info-div d-inline-block w-100">
+		<div class="container" id="list-wrapper">
+			<div class="row g-5">
+				<!-- News Card Column -->
+				<div class="col-lg-8">
+					@foreach (var item in Model)
+					{
+						<div class="list-item">
+							<a asp-area="Customer" asp-route-id="@item.Id" asp-controller="News" asp-action="Detail" class="comon-blogs-list-items mb-5">
+								<figure>
+									<img src="/@item.ImageUrl" alt="News Image">
+									<figcaption>
+										<b class="d-block">HOT</b>
+									</figcaption>
+								</figure>
+								<div class="content-post">
+									<h6><i class="fas fa-tags"></i> @item.NewsCategory</h6>
+									<h5>@Html.Raw(item.Title)</h5>
+									<div class="d-flex align-items-center">
+										<div class="admin-t">
+											<i class="fas fa-calendar-alt"></i>
+											<span>@item.PublishDate </span>
+										</div>
+									</div>
+									<p class="mt-3">@Html.Raw(item.Summary)</p>
+								</div>
+							</a>
+						</div>
+					}
+				</div>
+
+				<!-- Sidebar Column -->
+				<div class="col-lg-4">
+					<script async src="https://cse.google.com/cse.js?cx=665baa6def2154c4a"></script>
+					<div class="gcse-search"></div>
+					<div class="comon-sec-blogs-inf-right">
+						<h5>News Categories</h5>
+						<span class="line-ani"></span>
+						<ul class="mt-4">
+							<li>
+								<a asp-area="Customer" asp-controller="News" asp-action="Index" asp-route-category="Game">
+									<i class="fas fa-caret-right"></i> Game
+								</a>
+							</li>
+							<li>
+								<a asp-area="Customer" asp-controller="News" asp-action="Index" asp-route-category="Movie">
+									<i class="fas fa-caret-right"></i> Movie
+								</a>
+							</li>
+							<li>
+								<a asp-area="Customer" asp-controller="News" asp-action="Index" asp-route-category="Music">
+									<i class="fas fa-caret-right"></i> Music
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pagination -->
+			<div class="mt-5" id="pagination-container"></div>
+		</div>
+	</section>
+</main>
+
+@section Scripts {
+	<script>
+		$(document).ready(function () {
+			function applyPagination() {
+				var items = $("#list-wrapper .list-item");
+				var numItems = items.length;
+				var perPage = 3;
+
+				if (numItems > 0) {
+					items.slice(perPage).hide();
+
+					$('#pagination-container').pagination({
+						items: numItems,
+						itemsOnPage: perPage,
+						prevText: "&laquo;",
+						nextText: "&raquo;",
+						onPageClick: function (pageNumber) {
+							var showFrom = perPage * (pageNumber - 1);
+							var showTo = showFrom + perPage;
+							items.hide().slice(showFrom, showTo).show();
+						}
+					});
+
+					$('#pagination-container').show();
+				} else {
+					$('#pagination-container').hide();
+				}
+			}
+
+			applyPagination();
+		});
+	</script>
+}

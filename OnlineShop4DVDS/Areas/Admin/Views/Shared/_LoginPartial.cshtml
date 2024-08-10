@@ -1,0 +1,33 @@
+﻿@using DataAccess.Data
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@inject DatabaseContext _dbContext
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item dropdown">
+        @{
+            var userId = UserManager.GetUserId(User);
+            var user = await _dbContext.ApplicationUsers.FirstOrDefaultAsync(a => a.Id == userId);
+            var userName = user?.Name;
+        }
+
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="/admin/user/edit?userId=@userId" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Hello @userName
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/admin/user/edit?userId=@userId">Account Manager</a></li>
+            <li>
+                <form id="logOutForm" method="post" asp-area="Customer" asp-controller="Account" asp-action="LogOut">
+                    <button type="submit" class="dropdown-item">Logout</button>
+                </form>
+            </li>
+        </ul>
+    </li>
+}
+
+

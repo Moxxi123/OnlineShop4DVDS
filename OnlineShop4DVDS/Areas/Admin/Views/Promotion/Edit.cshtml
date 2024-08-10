@@ -1,0 +1,46 @@
+﻿@model Promotion
+
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient py-4">
+        <div class="text-center">
+            <h2 class="text-white mb-0">Update Promotion</h2>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <form asp-area="Admin" asp-controller="Promotion" asp-action="Edit" method="post">
+            <div class="border p-4 rounded">
+                <div asp-validation-summary="All" class="text-danger mb-3"></div>
+                <input asp-for="Id" hidden />
+                <input asp-for="Status" hidden />
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control border-0 shadow-sm" asp-for="Description" placeholder="Description" />
+                    <label asp-for="Description">Description</label>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="number" class="form-control border-0 shadow-sm" asp-for="DiscountPercent" placeholder="Discount Percent" />
+                    <label asp-for="DiscountPercent">Discount Percent</label>
+                    <span asp-validation-for="DiscountPercent" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="datetime-local" class="form-control border-0 shadow-sm" asp-for="StartDate" placeholder="Start Date" />
+                    <label asp-for="StartDate">Start Date</label>
+                    <span asp-validation-for="StartDate" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="datetime-local" class="form-control border-0 shadow-sm" asp-for="EndDate" placeholder="End Date" />
+                    <label asp-for="EndDate">End Date</label>
+                    <span asp-validation-for="EndDate" class="text-danger"></span>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-primary">Update</button>
+                    <a asp-area="Admin" asp-controller="Promotion" asp-action="Index" class="btn btn-outline-primary">Back To List</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

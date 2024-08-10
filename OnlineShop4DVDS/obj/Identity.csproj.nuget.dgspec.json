@@ -1,0 +1,401 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Identity\\Identity.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Authorize\\Authorize.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Authorize\\Authorize.csproj",
+        "projectName": "Authorize",
+        "projectPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Authorize\\Authorize.csproj",
+        "packagesPath": "C:\\Users\\Moxxi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Authorize\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Moxxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Ultility\\Ultility.csproj": {
+                "projectPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Ultility\\Ultility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Moxxi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Moxxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Models\\Models.csproj"
+              },
+              "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Ultility\\Ultility.csproj": {
+                "projectPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Ultility\\Ultility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Identity\\Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Identity\\Identity.csproj",
+        "projectName": "Identity",
+        "projectPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Identity\\Identity.csproj",
+        "packagesPath": "C:\\Users\\Moxxi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Moxxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Authorize\\Authorize.csproj": {
+                "projectPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Authorize\\Authorize.csproj"
+              },
+              "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Models\\Models.csproj"
+              },
+              "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Ultility\\Ultility.csproj": {
+                "projectPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Ultility\\Ultility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Moxxi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Moxxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Ultility\\Ultility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Ultility\\Ultility.csproj",
+        "projectName": "Ultility",
+        "projectPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Ultility\\Ultility.csproj",
+        "packagesPath": "C:\\Users\\Moxxi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Ultility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Moxxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Moxxi\\Desktop\\OnlineShop4DVDS\\OnlineShop4DVDS13072024\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mailjet.Api": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

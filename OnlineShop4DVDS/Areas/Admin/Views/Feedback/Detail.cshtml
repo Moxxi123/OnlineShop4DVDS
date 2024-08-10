@@ -1,0 +1,73 @@
+﻿@model Contact
+
+<div class="container-fluid mt-3">
+    <div class="row">
+        <!-- Header -->
+        <div class="col-md-12">
+            <div class="card-header bg-secondary bg-gradient ml-0 py-4">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="text-white py-2">Feedback</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-md-12">
+            <div class="card shadow border-0 my-4">
+                <div class="card-body p-4">
+                    <!-- Overview Section -->
+                    <div class="mb-3">
+                        <h3>Customer Feedback</h3>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label class="form-label">Name</label>
+                                    <h6>@Model.Name</h6>
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label">Email</label>
+                                    <h6>@Model.Email</h6>
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label">Phone Number</label>
+                                    <h6>@Model.Phone</h6>
+                                </div>
+                                <div class="col-md-12 mt-4">
+                                    <label class="form-label" style="font-weight: bold">Subject</label>
+                                    <p>@Model.Subject</p>
+                                </div>
+                                <div class="col-md-12 my-4">
+                                    <label class="form-label" style="font-weight: bold">Feedback</label>
+                                    <p>@Model.Feedback</p>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <!-- Form Section -->
+                    <div>
+                        <div class="mb-2">
+                            <h3>Reply</h3>
+                        </div>
+                        <div class="row">
+                            <div class="form-floating mb-5">
+                                <p>@Html.Raw(Model.Reply)</p>
+                            </div>
+
+                            <div class="row pt-2">
+                                <div class="col-6 col-md-3">
+                                    <a asp-area="Admin" asp-controller="Feedback" asp-action="Index" class="btn btn-outline-primary border form-control">Back To List</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

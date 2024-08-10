@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart Filter Interface</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        .form-group {
+            margin-bottom: 0; /* Loại bỏ khoảng cách dưới form-group để chúng nằm cùng một hàng */
+        }
+
+        .chart-container {
+            width: 80%; /* Kích thước chiếm 80% chiều rộng màn hình */
+            margin: 0 auto; /* Canh giữa */
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+
+        #ChartOrder {
+            width: 100%;
+            height: 100vh; /* Chiều cao toàn màn hình */
+            padding: 0 10%; /* Khoảng cách các cạnh là 10% */
+        }
+
+        .btn-container {
+            display: flex;
+        }
+
+        .btn-primary {
+            margin-top: 31px;
+        }
+
+        .center-text {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif; /* Sử dụng font chữ Montserrat */
+            font-size: 2.5em; /* Thay đổi kích thước font cho tiêu đề */
+            font-weight: 700; /* Đặt độ dày của font chữ */
+            color: #333; /* Màu chữ */
+            margin: 20px 0; /* Khoảng cách trên và dưới tiêu đề */
+        }
+    </style>
+</head>
+<body>
+    <h3 class="center-text">Total Revenue</h3>
+    <div class="container">
+        <div class="button-group my-4">
+            <button class="btn btn-primary" onclick="showTable('day')">Day</button>
+            <button class="btn btn-primary" onclick="showTable('month')">Month</button>
+            <button class="btn btn-primary" onclick="showTable('year')">Year</button>
+        </div>
+
+        <div id="ChartDay" class="card shadow border-0 my-4">
+            <h5 class="center-text"> Revenue by Day</h5>
+            <div class="row">
+                <div class="form-container">
+                    <form id="dateFilterForm1" method="get">
+                        <div class="row">
+                            <div class="col-md-3 form-group">
+                                <label for="day1">Start Date:</label>
+                                <input type="date" class="form-control" id="day1" name="day1" />
+                            </div>
+                            <div class="col-md-3 form-group">
+                                <label for="day2">End Date:</label>
+                                <input type="date" class="form-control" id="day2" name="day2" />
+                            </div>
+                            <div class="col-md-3 form-group">
+                                <button type="submit" class="btn btn-primary" id="filterButtonDay">Filter</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="chart-container">
+                    <canvas id="ChartOrderOne"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div id="ChartMonth" class="card shadow border-0 my-4" style="display:none;">
+            <h5 class="center-text"> Revenue by Month</h5>
+            <div class="row">
+                <div class="form-container">
+                    <form id="dateFilterForm2" method="get">
+                        <div class="row">
+                            <div class="col-md-3 form-group">
+                                <label for="month">Month:</label>
+                                <input type="number" class="form-control" id="month" name="month" min="1" max="12" />
+                            </div>
+                            <div class="col-md-3 form-group">
+                                <label for="yearMonth">Year:</label>
+                                <input type="number" class="form-control" id="yearMonth" name="year" />
+                            </div>
+                            <div class="col-md-3 form-group">
+                                <button type="submit" class="btn btn-primary" id="filterButtonMonth">Filter</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="chart-container">
+                    <canvas id="ChartOrderTwo"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div id="ChartYear" class="card shadow border-0 my-4" style="display:none;">
+            <h5 class="center-text"> Revenue by Year</h5>
+            <div class="row">
+                <div class="form-container">
+                    <form id="dateFilterForm3" method="get">
+                        <div class="row">
+                            <div class="col-md-3 form-group">
+                                <label for="yearYear">Year:</label>
+                                <input type="number" class="form-control" id="yearYear" name="year" />
+                            </div>
+                            <div class="col-md-3 form-group">
+                                <button type="submit" class="btn btn-primary" id="filterButtonYear">Filter</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="chart-container">
+                    <canvas id="ChartOrderYear"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        function fetchChartDataDay(url1) {
+            fetch(url1)
+                .then(res => res.json())
+                .then(data => {
+                    const randomColors = [];
+                    for (let i = 0; i < data.labels.length; i++) {
+                        const r = Math.floor(Math.random() * 255);
+                        const g = Math.floor(Math.random() * 255);
+                        const b = Math.floor(Math.random() * 255);
+                        const a = Math.random().toFixed(2);
+                        randomColors.push(`rgba(${r},${g},${b},${a})`);
+                    }
+                    var ctx = document.getElementById("ChartOrderOne").getContext("2d");
+                    if (window.myChartOrderOne) {
+                        window.myChartOrderOne.destroy();
+                    }
+                    window.myChartOrderOne = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: data.labels,
+                            datasets: [{
+                                label: "Doanh thu",
+                                data: data.totals,
+                                backgroundColor: randomColors,
+                                borderColor: 'rgb(255, 99, 132)',
+                                borderWidth: 5
+                            }]
+                        },
+                        options: {
+                            tension: 0.4,
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        },
+                    });
+                })
+                .catch(error => console.error('Error fetching chart data:', error));
+        }
+
+        function fetchChartDataMonth(url2) {
+            fetch(url2)
+                .then(res => res.json())
+                .then(data => {
+                    const randomColors = [];
+                    for (let i = 0; i < data.labels.length; i++) {
+                        const r = Math.floor(Math.random() * 255);
+                        const g = Math.floor(Math.random() * 255);
+                        const b = Math.floor(Math.random() * 255);
+                        const a = Math.random().toFixed(2);
+                        randomColors.push(`rgba(${r},${g},${b},${a})`);
+                    }
+                    var ctx = document.getElementById("ChartOrderTwo").getContext("2d");
+                    if (window.myChartOrderTwo) {
+                        window.myChartOrderTwo.destroy();
+                    }
+                    window.myChartOrderTwo = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: data.labels,
+                            datasets: [{
+                                label: "Doanh thu",
+                                data: data.totals,
+                                backgroundColor: randomColors,
+                                borderColor: 'rgb(255, 99, 132)',
+                                borderWidth: 2
+                            }]
+                        },
+                        options: {
+                            tension: 0.4,
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        },
+                    });
+                })
+                .catch(error => console.error('Error fetching chart data:', error));
+        }
+
+        function fetchChartDataYear(url3) {
+            fetch(url3)
+                .then(res => res.json())
+                .then(data => {
+                    const randomColors = [];
+                    for (let i = 0; i < data.labels.length; i++) {
+                        const r = Math.floor(Math.random() * 255);
+                        const g = Math.floor(Math.random() * 255);
+                        const b = Math.floor(Math.random() * 255);
+                        const a = Math.random().toFixed(2);
+                        randomColors.push(`rgba(${r},${g},${b},${a})`);
+                    }
+                    var ctx = document.getElementById("ChartOrderYear").getContext("2d");
+                    if (window.myChartOrderYear) {
+                        window.myChartOrderYear.destroy();
+                    }
+                    window.myChartOrderYear = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: data.labels,
+                            datasets: [{
+                                label: "Doanh thu",
+                                data: data.totals,
+                                backgroundColor: randomColors,
+                                borderColor: 'rgb(255, 99, 132)',
+                                borderWidth: 2
+                            }]
+                        },
+                        options: {
+                            tension: 0.4,
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        },
+                    });
+                })
+                .catch(error => console.error('Error fetching chart data:', error));
+        }
+
+        function showTable(tableId) {
+            document.getElementById("ChartDay").style.display = tableId === 'day' ? 'block' : 'none';
+            document.getElementById("ChartMonth").style.display = tableId === 'month' ? 'block' : 'none';
+            document.getElementById("ChartYear").style.display = tableId === 'year' ? 'block' : 'none';
+        }
+
+        document.getElementById('dateFilterForm1').onsubmit = function (e) {
+            e.preventDefault();
+            const day1 = document.getElementById('day1').value;
+            const day2 = document.getElementById('day2').value;
+            if (day1 && day2) {
+                var startDate = new Date(day1);
+                var endDate = new Date(day2);
+
+                if (endDate < startDate) {
+                    alert('End Date must be greater than or equal to Start Date. Please select valid dates.');
+                    event.preventDefault(); // Ngăn không cho form gửi
+                }
+            }
+
+            const url1 = `ChartOrderCDTDay?day1=${day1}&day2=${day2}`;
+            fetchChartDataDay(url1);
+        };
+
+        document.getElementById('dateFilterForm2').onsubmit = function (e) {
+            e.preventDefault();
+            const month = document.getElementById('month').value;
+            const yearMonth = document.getElementById('yearMonth').value;
+            if ((month < 1 || month > 12) || yearMonth < 0) {
+                alert('Please enter a valid month (1-12) and a non-negative year. Please select valid values.');
+                event.preventDefault(); // Ngăn không cho form gửi
+            }
+            const url2 = `ChartOrderCDTMonth?month=${month}&year=${yearMonth}`;
+            fetchChartDataMonth(url2);
+        };
+
+        document.getElementById('dateFilterForm3').onsubmit = function (e) {
+            e.preventDefault();
+            const yearYear = document.getElementById('yearYear').value;
+            if (yearYear < 0) {
+                alert('Please enter a non-negative year. Please select valid values.');
+                event.preventDefault(); // Ngăn không cho form gửi
+            }
+            const url3 = `ChartOrderCDTYear?year=${yearYear}`;
+            fetchChartDataYear(url3);
+        };
+
+        // Mặc định hiển thị biểu đồ theo ngày
+        showTable('day');
+    </script>
+</body>
+</html>

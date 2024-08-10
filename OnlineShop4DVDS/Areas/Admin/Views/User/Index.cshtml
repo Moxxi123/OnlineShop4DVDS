@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ApplicationUser>
+@{
+    var successMessage = TempData["SuccessMessage"] as string;
+    var roles = ViewBag.Roles as List<string>;
+}
+
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">User List</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row pb-3">
+            <input type="hidden" id="successMessage" value="@successMessage" />
+            <div class="col-6 d-flex justify-content-between">
+                <ul id="roleFilter" class="list-group list-group-horizontal-sm">
+                     <a style="text-decoration:none;">
+                        <li class="list-group-item" data-role="" style="cursor: pointer;">All Roles</li>
+                     </a>
+                    @if (roles != null)
+                    {
+                        foreach (var role in roles)
+                        {
+                            <a style="text-decoration:none;">
+                                <li class="list-group-item" data-role="@role" style="cursor: pointer;">@role</li>
+                            </a>
+                        }
+                    }
+                </ul>
+            </div>
+            <div class="col-6 text-end">
+                <a asp-area="Admin" asp-controller="User" asp-action="Create" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> Create New User
+                </a>
+            </div>
+        </div>
+        <table class="table table-bordered table-striped" id="tableData" style="width:100%">
+            <thead>
+                <tr>
+                    <th>User Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $('#roleFilter li').click(function () {
+            var role = $(this).attr('data-role');
+            $('#roleFilter li').removeClass('active text-white bg-primary');
+            $(this).addClass('active text-white bg-primary');
+            loadDataTable(role);
+        });
+    </script>
+    <script src="~/Asset/Admin/js/user.js"></script>
+}
+

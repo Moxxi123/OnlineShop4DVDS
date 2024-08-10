@@ -1,0 +1,55 @@
+﻿@using Ultility
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3 mb-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Order List</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row pb-3 ms-2">
+        <div class="col-10 d-flex justify-content-between">
+            <ul id="productTypeFilter" class="list-group list-group-horizontal-sm">
+                <a style="text-decoration:none;">
+                <li class="list-group-item" data-type="" style="cursor: pointer;">All Order Types</li>
+                </a>
+                <a style="text-decoration:none;">
+                <li class="list-group-item" data-type="@StaticDetail.OrderStatusPending" style="cursor: pointer;">@StaticDetail.OrderStatusPending</li>
+                </a>
+                <a style="text-decoration:none;">
+                <li class="list-group-item" data-type="@StaticDetail.OrderStatusCancelRequest" style="cursor: pointer;">@StaticDetail.OrderStatusCancelRequest</li>
+                </a>
+                <a style="text-decoration:none;">
+                <li class="list-group-item" data-type="@StaticDetail.OrderStatusProcessing" style="cursor: pointer;">@StaticDetail.OrderStatusProcessing</li>
+                </a>
+                <a style="text-decoration:none;">
+                <li class="list-group-item" data-type="@StaticDetail.OrderStatusShipping" style="cursor: pointer;">@StaticDetail.OrderStatusShipping</li>
+                </a>
+                <a style="text-decoration:none;">
+                <li class="list-group-item" data-type="@StaticDetail.OrderStatusDelivered" style="cursor: pointer;">@StaticDetail.OrderStatusDelivered</li>
+                </a>
+                <a style="text-decoration:none;">
+                <li class="list-group-item" data-type="@StaticDetail.OrderStatusCancelled" style="cursor: pointer;">@StaticDetail.OrderStatusCancelled</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <table class="table table-bordered table-striped" id="tableData" style="width:100%">
+            <thead>
+                <tr>
+                    <th>User Name</th>
+                    <th>Order Date</th>
+                    <th>Payment Method</th>
+                    <th>Payment Status</th>
+                    <th>Order Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/Asset/Admin/js/order.js"></script>
+}
