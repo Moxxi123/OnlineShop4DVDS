@@ -21,7 +21,7 @@ Project title: OnlineShop4DVDS - Online store sells digitals albums, movies, gam
          
 ============================
 
-GitHub report link: 
+GitHub report link: https://github.com/Moxxi123/OnlineShop4DVDS/tree/main/Documents
 
 ============================
 
